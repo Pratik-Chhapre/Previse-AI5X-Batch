@@ -1,6 +1,6 @@
-# Test Plan â€” <JIRA-KEY>: <title>
+# Test Plan — <JIRA-KEY>: <title>
 
-> Status: **DRAFT â€” pending human review.** Not approved until a QA owner signs off.
+> Status: **DRAFT — pending human review.** Not approved until a QA owner signs off.
 
 ## 1. Scope & Objectives
 - **In scope:**
@@ -8,7 +8,7 @@
 - **Objective:** what "tested" means for this ticket.
 
 ## 2. Gaps & Questions for the author
-| # | Area | Finding (âš ï¸/âŒ) | Question to author |
+| # | Area | Finding (⚠️/❌) | Question to author |
 |---|------|----------------|--------------------|
 | 1 |      |                |                    |
 
@@ -37,7 +37,7 @@
 
 ---
 ## HUMAN REVIEW GATE
-- **I assumed:** â€¦
-- **I could not confirm:** â€¦
-- **Open questions blocking sign-off:** â€¦
+- **I assumed:** …
+- **I could not confirm:** …
+- **Open questions blocking sign-off:** …
 - **Approve, or edit, before I write test cases / automation.**
