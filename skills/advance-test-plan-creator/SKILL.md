@@ -14,7 +14,7 @@ metadata:
 
 # Test Plan Generator
 
-You produce a **test plan a human still has to approve** — never a "done" artifact.
+You produce a **test plan a human still has to approve** â€” never a "done" artifact.
 
 # Core Principle
 Your job is analysis + drafting + surfacing what is missing, not silent completion.
@@ -33,7 +33,7 @@ Your job is analysis + drafting + surfacing what is missing, not silent completi
 ### 1. Fetch the ticket
 - If a JIRA key is given (e.g. `VWO-49`), fetch it, run `scripts/fetch_jira.sh VWO-49` (needs `JIRA_BASE_URL`,
   `JIRA_EMAIL`, `JIRA_TOKEN` in the .env file). If neither works, ask the user to paste the
-  ticket body — **do not invent ticket content.**
+  ticket body â€” **do not invent ticket content.**
 - Capture: summary, description, acceptance criteria, components, linked issues,
   attachments, and the fix version / sprint.
 
@@ -41,7 +41,7 @@ Your job is analysis + drafting + surfacing what is missing, not silent completi
 ### 2. Analyze the Ticekt for acceptance criteria
 
 Run the ticket through `references/requirement-checklist.md`. For every item, mark
-✅ present / ⚠️ ambiguous / ❌ missing. Explicitly list:
+âœ… present / âš ï¸ ambiguous / âŒ missing. Explicitly list:
 - Missing or vague acceptance criteria
 - Undefined edge cases, error states, empty/limit/boundary conditions
 - Unstated non-functional needs (perf, security, a11y, i18n, permissions/roles)
@@ -52,12 +52,12 @@ Run the ticket through `references/requirement-checklist.md`. For every item, ma
 
 
 ### 3. Find the missing pieces and gaps.
-If you found some gaps, Output this as a **"Gaps & Questions for the author"** section. This is the most valuable part — a tester's leverage is asking the question before the bug ships.
+If you found some gaps, Output this as a **"Gaps & Questions for the author"** section. This is the most valuable part â€” a tester's leverage is asking the question before the bug ships.
 
 ### 4. Draft the test plan
 Fill `references/test-plan-template.md` completely. Drive test scenarios from the
 acceptance criteria and the gaps you found. Cover positive, negative, boundary,
-and cross-role/permission paths. Tag each scenario P0/P1/P2 by risk and also use the `misc/mycompanydetails.md` as reference
+and cross-role/permission paths. Tag each scenario P0/P1/P2 by risk.
 
 ### 5. STOP for human review (mandatory)
 End with a **Human Review Gate**:
@@ -68,7 +68,7 @@ End with a **Human Review Gate**:
 
 ## Output shape
 ``` markdown
-## Test Plan — <JIRA-KEY>: <title>
+## Test Plan â€” <JIRA-KEY>: <title>
 1. Scope & Objectives
 2. Gaps & Questions for the author   <-- surface missing pieces here
 3. Test Scenarios (P0/P1/P2)
@@ -77,22 +77,22 @@ End with a **Human Review Gate**:
 6. Entry / Exit criteria
 --- HUMAN REVIEW GATE ---
 Assumptions made / Open questions / "Approve or edit before I continue"
-add the comapny info and logo also in the output present in the `misc/company.png`
+
 
 ```
 
 ## Guardrails and Security
-- Never mark the plan "final" — a human owns sign-off.
+- Never mark the plan "final" â€” a human owns sign-off.
 - Never fabricate acceptance criteria; a missing AC is a finding, not a blank to fill.
 - Keep scenarios traceable: each maps to an AC or a gap.
 
 
 
 ## References
-- `references/requirement-checklist.md` — the gap-analysis checklist
-- `references/test-plan-template.md` — the plan template to fill
-- `scripts/fetch_jira.sh` — pull a ticket over the JIRA REST API
-- `copilot/test-plan.prompt.md` — the same skill as a GitHub Copilot prompt file
+- `references/requirement-checklist.md` â€” the gap-analysis checklist
+- `references/test-plan-template.md` â€” the plan template to fill
+- `scripts/fetch_jira.sh` â€” pull a ticket over the JIRA REST API
+- `copilot/test-plan.prompt.md` â€” the same skill as a GitHub Copilot prompt file
 
 ## Anti Hallucination Rules
 - Never assume anything. If you have any doubt or anything, you ask a user. 
