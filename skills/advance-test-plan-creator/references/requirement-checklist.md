@@ -1,10 +1,10 @@
 # Requirement Gap-Analysis Checklist
 
-Score every row: âœ… present Â· âš ï¸ ambiguous Â· âŒ missing. Every âš ï¸/âŒ becomes a
+Score every row: ✅ present · ⚠️ ambiguous · ❌ missing. Every ⚠️/❌ becomes a
 question for the ticket author.
 
 ## Functional
-- [ ] Clear user story / goal ("As a â€¦ I want â€¦ so that â€¦")
+- [ ] Clear user story / goal ("As a … I want … so that …")
 - [ ] Acceptance criteria are testable (observable pass/fail)
 - [ ] Happy path fully described
 - [ ] Negative / error paths described (bad input, failure responses)
