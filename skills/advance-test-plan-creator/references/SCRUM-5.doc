@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SCRUM-5] Auto-Assignment of Created Cases to Available Agents</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://pratikchhapre1.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SCRUM-5]&nbsp;<a href="https://pratikchhapre1.atlassian.net/browse/SCRUM-5">Auto-Assignment of Created Cases to Available Agents</a>
+            <span class="subText">
+               Created: 27/Oct/26                   &nbsp;Updated: 27/Oct/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://pratikchhapre1.atlassian.net/secure/BrowseProject.jspa?id=10000">QA Testing</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:b9c1b808-2f69-4aaa-8c99-138cb4ea7ad3"
+                id="word_reporter_712020:b9c1b808-2f69-4aaa-8c99-138cb4ea7ad3"
+                href="https://pratikchhapre1.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ab9c1b808-2f69-4aaa-8c99-138cb4ea7ad3">
+                    Pratik Vijay Chhapre
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10004-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10004-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000n:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10004-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Description</b></p>
+
+<p>As a <b>Support Operations Manager</b>,<br/>
+I want newly created cases to be automatically assigned to available agents using a round-robin method,<br/>
+So that workload is distributed fairly and cases are handled efficiently without manual intervention.</p>
+
+<p><b>Acceptance Criteria</b></p>
+
+<h3><a name="1%EF%B8%8F%E2%83%A3AutomaticAssignment"></a>1️⃣ Automatic Assignment</h3>
+
+<ul>
+	<li>Given a new case is created</li>
+	<li>When the case enters the system</li>
+	<li>Then the system should automatically assign it to an eligible agent</li>
+</ul>
+
+
+<h3><a name="2%EF%B8%8F%E2%83%A3RoundRobinDistribution"></a>2️⃣ Round-Robin Distribution</h3>
+
+<ul>
+	<li>The system should assign cases using a <b>round-robin allocation logic</b></li>
+	<li>Cases should be distributed evenly among eligible agents</li>
+</ul>
+
+
+<h3><a name="3%EF%B8%8F%E2%83%A3AgentAvailabilityCheck"></a>3️⃣ Agent Availability Check</h3>
+
+<p>Before assigning a case, the system must verify:</p>
+
+<ul>
+	<li>Agent status is <b>Active</b></li>
+	<li>Agent is currently within defined <b>working hours</b></li>
+	<li>Agent is not marked as <b>Vacation / Out of Office</b></li>
+	<li>Agent is not in <b>Inactive / Disabled</b> status</li>
+</ul>
+
+
+<h3><a name="4%EF%B8%8F%E2%83%A3ExclusionCriteria"></a>4️⃣ Exclusion Criteria</h3>
+
+<ul>
+	<li>Cases must NOT be assigned to agents who:
+	<ul>
+		<li>Are on vacation</li>
+		<li>Are marked Out of Office</li>
+		<li>Are inactive or offline (if applicable)</li>
+	</ul>
+	</li>
+</ul>
+
+
+<h3><a name="5%EF%B8%8F%E2%83%A3FallbackScenario"></a>5️⃣ Fallback Scenario</h3>
+
+<ul>
+	<li>If no agents are available:
+	<ul>
+		<li>Case should remain in queue and Superviser/ Admin can view them in Un assigned Tab under case managmnet section</li>
+	</ul>
+	</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10000"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:b9c1b808-2f69-4aaa-8c99-138cb4ea7ad3"
+                id="word_commented_712020:b9c1b808-2f69-4aaa-8c99-138cb4ea7ad3"
+                href="https://pratikchhapre1.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ab9c1b808-2f69-4aaa-8c99-138cb4ea7ad3">
+                    Pratik Vijay Chhapre
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Oct/26</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10000"><td bgcolor="#ffffff">
+            <p><a href="https://pratikchhapre1.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ab9c1b808-2f69-4aaa-8c99-138cb4ea7ad3" class="user-hover" rel="712020:b9c1b808-2f69-4aaa-8c99-138cb4ea7ad3" data-account-id="712020:b9c1b808-2f69-4aaa-8c99-138cb4ea7ad3" accountid="712020:b9c1b808-2f69-4aaa-8c99-138cb4ea7ad3" rel="noreferrer">Pratik Vijay Chhapre</a> Hi</p>
+        </td></tr>
+            </table>
+Generated at Tue Oct 27 05:57:16 UTC 2026 by Pratik Vijay Chhapre using Jira 1001.0.0-SNAPSHOT#100295-rev:f6465463661722583daccffab8c9da1746fe0520.
+
+</body>
+</html>

@@ -1,15 +1,15 @@
 ---
-name: advance-testplan-creator
-description: Turn a JIRA ticket into a review-ready test plan. Use when a tester or QA lead says "write a test plan for JIRA-1234", "plan testing for this story", "what
+name: Advance-testplan-creator
+description: Turn a JIRA ticket into a review-ready test plan. Use when a tester or QA lead says "write a test plan for O1P1-3", "plan testing for this story", "what
   should we test here", or pastes an acceptance-criteria / user-story ticket.
   Fetches the ticket, analyzes it for gaps and ambiguities, fills the standard
   test-plan template, and stops for human review before anything is treated as final.
 license: MIT
 metadata:
-  author: Prrammod Dutta from TheTestingAcademy
+  author: Pratik V Chhapre
   stlc-phase: Test Planning
   version: 1.0.0
-  tag: ["testplan"]
+  tag: ["Test-Plan"]
 ---
 
 # Test Plan Generator
@@ -31,7 +31,7 @@ Your job is analysis + drafting + surfacing what is missing, not silent completi
 ## Workflow (follow in order)
 
 ### 1. Fetch the ticket
-- If a JIRA key is given (e.g. `VWO-49`), fetch it, run `scripts/fetch_jira.sh VWO-49` (needs `JIRA_BASE_URL`,
+- If a JIRA key is given (e.g. `https://pratikchhapre1.atlassian.net/browse/SCRUM-5`), fetch it, run `C:\Users\previ\OneDrive\Desktop\Learnings\AI Tester 5X\VS Code\AITesterBlueprint5x\Chapter_00_Skill_basics\001_basic_skills_creation\004-advance_test_plan_creation\testplan-creator-skill_a\scripts\fetch-jira.sh` (needs `JIRA_BASE_URL`,
   `JIRA_EMAIL`, `JIRA_TOKEN` in the .env file). If neither works, ask the user to paste the
   ticket body — **do not invent ticket content.**
 - Capture: summary, description, acceptance criteria, components, linked issues,
@@ -77,7 +77,7 @@ End with a **Human Review Gate**:
 6. Entry / Exit criteria
 --- HUMAN REVIEW GATE ---
 Assumptions made / Open questions / "Approve or edit before I continue"
-add the comapny info and logo also in the output present in the `misc/company.png`
+add the comapny info and logo also in the output present in the `misc/previselogo.png`
 
 ```
 
@@ -91,7 +91,7 @@ add the comapny info and logo also in the output present in the `misc/company.pn
 ## References
 - `references/requirement-checklist.md` — the gap-analysis checklist
 - `references/test-plan-template.md` — the plan template to fill
-- `scripts/fetch_jira.sh` — pull a ticket over the JIRA REST API
+- `scripts/fetch-jira.sh` — pull a ticket over the JIRA REST API
 - `copilot/test-plan.prompt.md` — the same skill as a GitHub Copilot prompt file
 
 ## Anti Hallucination Rules

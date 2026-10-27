@@ -1,2 +1,6 @@
 Short Summary:
-I am working right now on vwo.com, which is a Bingify product. Here, we do A/B testing, and this overall company basically performs A/B testing for the websites. Our task mostly is that you are basically present. This company has 5,000 employees, and our main target is to do A/B testing, provide certain features, and everything in detail. 
+I am currently working at Previse IT, an IT product company specializing in insurance solutions and contact center technology.
+
+Our work involves end-to-end testing and A/B testing of websites to evaluate different features, functionality, and user experiences. We specialize in EIS-based insurance solutions, with a primary focus on insurance domain testing, validating business requirements, testing new features, and ensuring the quality and reliability of end-to-end insurance workflows.
+
+In addition, we are developing solutions for contact centers. Our team has designed and developed **MyOmniDesk**, an in-house product built from scratch, and it is receiving tremendous response and interest from customers globally.
