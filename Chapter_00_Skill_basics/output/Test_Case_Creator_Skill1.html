@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Formatted edition of the Generic Manual Test Case Creator skill.">
+  <title>Generic Manual Test Case Creator — Skill 1</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #18263c;
+      --muted: #5b6a7f;
+      --brand: #2539a8;
+      --brand-dark: #172773;
+      --line: #d9dfeb;
+      --surface: #f5f7fb;
+      --white: #fff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--surface);
+      color: var(--ink);
+      font: 15px/1.58 "Segoe UI", Arial, sans-serif;
+    }
+    .document {
+      max-width: 960px;
+      margin: 32px auto;
+      padding: 44px 56px;
+      background: var(--white);
+      box-shadow: 0 8px 32px #17243a12;
+    }
+    header {
+      margin: -44px -56px 30px;
+      padding: 34px 38px;
+      color: var(--white);
+      background: linear-gradient(120deg, var(--brand-dark), var(--brand));
+    }
+    .eyebrow {
+      margin: 0 0 9px;
+      color: #d5ddff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: clamp(29px, 4vw, 39px); line-height: 1.17; }
+    header p { margin: 12px 0 0; color: #edf0ff; }
+    .meta {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 9px;
+      margin-top: 22px;
+    }
+    .meta div {
+      padding: 9px 12px;
+      border: 1px solid #ffffff45;
+      border-radius: 7px;
+      background: #ffffff12;
+    }
+    .meta strong { display: block; color: #d5ddff; font-size: 11px; text-transform: uppercase; }
+    .meta span { display: block; margin-top: 2px; font-size: 13px; }
+    h2 {
+      margin: 32px 0 12px;
+      padding-bottom: 7px;
+      border-bottom: 2px solid var(--line);
+      color: var(--brand-dark);
+      font-size: 21px;
+    }
+    h3 { margin: 23px 0 8px; color: var(--brand); font-size: 16px; }
+    p { margin: 8px 0 12px; }
+    ul, ol { padding-left: 24px; }
+    li { margin: 5px 0; }
+    .table-wrap { overflow-x: auto; }
+    table {
+      width: 100%;
+      margin: 13px 0 20px;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 9px 11px;
+      border: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th { color: var(--brand-dark); background: #eef2fb; }
+    tbody tr:nth-child(even) { background: #fafbfe; }
+    .callout {
+      margin: 15px 0;
+      padding: 12px 15px;
+      border-left: 4px solid var(--brand);
+      background: #eaf0ff;
+    }
+    .callout p:last-child { margin-bottom: 0; }
+    code {
+      padding: 1px 5px;
+      border-radius: 4px;
+      background: #eef2f7;
+      font: .92em Consolas, "Courier New", monospace;
+    }
+    footer {
+      margin-top: 36px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+    }
+    @media (max-width: 650px) {
+      .document { margin: 0; padding: 25px 20px; }
+      header { margin: -25px -20px 24px; padding: 28px 22px; }
+      .meta { grid-template-columns: 1fr; }
+    }
+    @media print {
+      @page { size: A4; margin: 17mm; }
+      body { background: #fff; font-size: 10pt; }
+      .document { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+      header { margin: 0 0 20px; padding: 23px; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      h2, h3 { break-after: avoid; }
+      table, .callout, .meta div { break-inside: avoid; }
+      th { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .table-wrap { overflow: visible; }
+    }
+  </style>
+</head>
+<body>
+  <main class="document">
+    <header>
+      <p class="eyebrow">QA Skill · Manual Test Design</p>
+      <h1>Generic Manual Test Case Creator</h1>
+      <p>A practical guide for creating clear, traceable manual test cases from software requirements.</p>
+      <div class="meta">
+        <div><strong>Skill name</strong><span>test_case_creater_skill</span></div>
+        <div><strong>Description</strong><span>Create clear, traceable manual test cases from software requirements, user stories, acceptance criteria, and requirement documents.</span></div>
+      </div>
+    </header>
+
+    <section>
+      <h2>Purpose</h2>
+      <p>Transform supplied software requirements into practical, reviewable manual test cases for web, mobile, enterprise, and end-to-end business workflows.</p>
+    </section>
+
+    <section>
+      <h2>When to use</h2>
+      <p>Use this skill when the user supplies requirements, a user story, acceptance criteria, a change request, a process description, or a requirement document.</p>
+    </section>
+
+    <section>
+      <h2>Procedure</h2>
+      <h3>1. Understand the requirement</h3>
+      <ul>
+        <li>Read all supplied requirement content before drafting.</li>
+        <li>Identify the feature, actors, triggers, inputs, business rules, expected outcomes, roles, dependencies, and acceptance criteria.</li>
+        <li>Separate explicit requirements from assumptions and suggestions.</li>
+      </ul>
+
+      <h3>2. Identify applicable test conditions</h3>
+      <p>Consider relevant scenarios:</p>
+      <ul>
+        <li>Positive / happy path</li>
+        <li>Negative and invalid input</li>
+        <li>Boundary values and limits</li>
+        <li>Required-field and format validation</li>
+        <li>Business-rule validation</li>
+        <li>Alternate and exception flows</li>
+        <li>Roles and permissions</li>
+        <li>Repeated actions, retries, and duplicate submissions</li>
+        <li>State transitions, data persistence, and consistency</li>
+        <li>Integration outcomes</li>
+        <li>Usability, accessibility, compatibility, or performance when within scope</li>
+      </ul>
+      <p>Only include categories relevant to the feature. Do not add unrelated cases just to increase the count.</p>
+
+      <h3>3. Check coverage</h3>
+      <ul>
+        <li>Map test cases to requirement IDs or acceptance criteria when provided.</li>
+        <li>Cover each stated acceptance criterion.</li>
+        <li>Identify omissions, overlaps, and duplicates.</li>
+        <li>Flag conflicting or ambiguous requirements instead of silently choosing an interpretation.</li>
+      </ul>
+
+      <h3>4. Write executable test cases</h3>
+      <ul>
+        <li>Assign unique sequential IDs, such as <code>TC_001</code>, <code>TC_002</code>.</li>
+        <li>Give each case a concise, behavior-focused title.</li>
+        <li>Include preconditions and test data where needed.</li>
+        <li>Write numbered, actionable manual steps.</li>
+        <li>State specific, observable expected results.</li>
+        <li>Assign priority based on business risk and impact.</li>
+        <li>Avoid vague steps such as “test the feature” and results such as “it works correctly.”</li>
+      </ul>
+
+      <h3>5. Review before responding</h3>
+      <p>Confirm that cases are relevant, executable, non-duplicative, and traceable where possible. Check positive, negative, and boundary scenarios as applicable. Do not invent unsupported behavior.</p>
+    </section>
+
+    <section>
+      <h2>Default output format</h2>
+      <p>Use a Markdown table for a small or moderate set of cases. For long steps, use a separate structured section per test case.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Field</th><th>Guidance</th></tr></thead>
+          <tbody>
+            <tr><td>Test Case ID</td><td>Unique ID, e.g. TC_001</td></tr>
+            <tr><td>Requirement ID</td><td>Supplied ID; otherwise N/A</td></tr>
+            <tr><td>Test Scenario / Title</td><td>Short description of the behavior being tested</td></tr>
+            <tr><td>Test Type</td><td>Positive, Negative, Boundary, Validation, Security, Integration, or another relevant type</td></tr>
+            <tr><td>Preconditions</td><td>Required system state, role, setup, or dependency</td></tr>
+            <tr><td>Test Data</td><td>Supplied values or clearly labelled placeholders</td></tr>
+            <tr><td>Test Steps</td><td>Numbered actions a tester can perform</td></tr>
+            <tr><td>Expected Result</td><td>Specific observable outcome</td></tr>
+            <tr><td>Priority</td><td>High, Medium, or Low, based on risk</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Follow the user's requested output format if they specify one. Do not add unnecessary columns.</p>
+    </section>
+
+    <section>
+      <h2>Priority guidance</h2>
+      <ul>
+        <li><strong>High:</strong> Critical business flow, security/access control, major financial or data impact, or a failure blocking important activity.</li>
+        <li><strong>Medium:</strong> Important functionality with a workaround or moderate business impact.</li>
+        <li><strong>Low:</strong> Minor behavior, cosmetic issue, or low-impact edge case.</li>
+      </ul>
+      <p>Priority is not the same as defect severity or execution order. If impact is unclear, mark priority provisional.</p>
+    </section>
+
+    <section>
+      <h2>Accuracy rules</h2>
+      <ul>
+        <li>Treat supplied requirements as the source of truth.</li>
+        <li>Never invent fields, limits, workflows, roles, fees, messages, statuses, or business rules.</li>
+        <li>Do not present assumptions as confirmed requirements.</li>
+        <li>If expected behavior is unspecified, write “Confirm expected behavior with the product owner” rather than fabricating a result.</li>
+        <li>Use placeholders for missing test data and identify them clearly.</li>
+        <li>Do not claim test cases have been executed; execution requires actual test evidence.</li>
+        <li>Do not claim complete coverage unless it has been checked against the supplied requirements and limitations are stated.</li>
+        <li>Prefer synthetic or masked data over real customer or production data.</li>
+        <li>Keep testing within the authorized application and environment scope.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Incomplete or ambiguous requirements</h2>
+      <p>Add an <strong>Assumptions and Clarifications</strong> section when needed. For each item, state:</p>
+      <ul>
+        <li>Requirement area</li>
+        <li>Missing or unclear detail</li>
+        <li>Why it affects testing</li>
+        <li>Question for the business analyst, product owner, or relevant stakeholder</li>
+      </ul>
+      <p>If an assumption is needed to produce a useful draft, label it and make the related case conditional on confirmation.</p>
+    </section>
+
+    <section>
+      <h2>Requirement documents</h2>
+      <ul>
+        <li>Use only content that can be read from the supplied document.</li>
+        <li>Disclose if pages, tables, images, or sections are unreadable or unavailable.</li>
+        <li>Never infer the contents of unreadable sections.</li>
+        <li>If the user requests a particular number of cases, aim for it where requirements support it; do not fabricate cases just to meet the count.</li>
+        <li>If the user requests Excel, CSV, or another format, use an available file-generation capability if supported.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Response structure</h2>
+      <p>Unless the user requests otherwise, return:</p>
+      <ol>
+        <li><strong>Scope understood</strong> — brief summary of the feature.</li>
+        <li><strong>Manual test cases</strong> — structured test cases.</li>
+        <li><strong>Assumptions and clarifications</strong> — only when needed.</li>
+        <li><strong>Coverage notes</strong> — covered scenario types and known gaps.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Final checklist</h2>
+      <ul>
+        <li>☐ Unique ID for every case.</li>
+        <li>☐ Clear scenario and purpose.</li>
+        <li>☐ Preconditions and test data included when needed.</li>
+        <li>☐ Steps are numbered and actionable.</li>
+        <li>☐ Expected results are specific and observable.</li>
+        <li>☐ Relevant positive, negative, and boundary cases considered.</li>
+        <li>☐ Traceability included when possible.</li>
+        <li>☐ Priority is risk-based.</li>
+        <li>☐ Assumptions and open questions are separated.</li>
+        <li>☐ No unsupported business behavior is invented.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p><strong>Skill 1 · Generic Manual Test Case Creator</strong></p>
+      <p>Formatted from the supplied SKILL1.md. Content is preserved and organized for reading, printing, and editing.</p>
+    </footer>
+  </main>
+</body>
+</html>

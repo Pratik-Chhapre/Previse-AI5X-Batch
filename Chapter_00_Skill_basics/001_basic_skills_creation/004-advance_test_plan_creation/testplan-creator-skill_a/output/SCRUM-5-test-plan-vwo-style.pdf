@@ -1,0 +1,6887 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (SCRUM\0555 Test Plan \055 VWO style\054 glyph corrected)
+/Author (PreVise IT \055 Quality Assurance)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 7
+/Kids [ 4 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 9414
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0.521569 0.541176 0.572549 rg
+BT
+/F1 7.1 Tf
+8.52 TL
+ET
+BT
+1 0 0 1 45.35433 814.9606 Tm
+(Page 1  \174  SCRUM\0555 Test Plan) Tj
+T*
+ET
+1 0.945098 0.941176 rg
+n
+439.3039 812.3606 m
+547.5213 812.3606 l
+548.848 812.3606 549.9213 813.4339 549.9213 814.7606 c
+549.9213 820.9606 l
+549.9213 822.2873 548.848 823.3606 547.5213 823.3606 c
+439.3039 823.3606 l
+437.9771 823.3606 436.9039 822.2873 436.9039 820.9606 c
+436.9039 814.7606 l
+436.9039 813.4339 437.9771 812.3606 439.3039 812.3606 c
+h
+f*
+0.898039 0.196078 0.176471 rg
+BT
+/F2 6.2 Tf
+7.44 TL
+ET
+BT
+1 0 0 1 441.4039 814.9606 Tm
+(DRAFT\072 PENDING HUMAN REVIEW) Tj
+T*
+ET
+0.882353 0.890196 0.901961 RG
+0.5 w
+n
+45.35433 805.0394 m
+549.9213 805.0394 l
+S
+n
+45.35433 29.76378 m
+549.9213 29.76378 l
+S
+0.521569 0.541176 0.572549 rg
+BT
+/F1 6.8 Tf
+8.16 TL
+ET
+BT
+1 0 0 1 546.1405 19.27559 Tm
+(1) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 784.8661 cm
+Q
+q
+1 0 0 1 51.35433 774.8661 cm
+q
+0.521569 0.541176 0.572549 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 8 Tf
+10 TL
+(TEST PLAN \055 SCRUM\0555) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 717.8661 cm
+q
+BT
+1 0 0 1 0 30 Tm
+61.70346 0 Td
+26 TL
+/F2 22 Tf
+0.113725 0.137255 0.188235 rg
+(Auto\055Assignment of Created Cases) Tj
+T*
+82.5 0 Td
+(to Available Agents) Tj
+T*
+-144.2035 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 700.8661 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 3 Tm
+/F1 9 Tf
+12 TL
+(Round\055robin distribution for newly created support cases) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 685.8661 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F2 9.5 Tf
+11 TL
+(0 Ticket snapshot) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 549.2661 cm
+q
+0.937255 0.941176 0.94902 rg
+n
+0 133.6 504.5669 -14.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 104.3 504.5669 -14.9 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 74.5 504.5669 -14.9 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 44.7 504.5669 -14.9 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 14.9 504.5669 -14.9 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 4 122.4 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Field) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 122.4 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Value) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 107.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Key) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 107.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(SCRUM\0555) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 92.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Summary) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 92.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Auto\055Assignment of Created Cases to Available Agents) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 77.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Issue type) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 77.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Task) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 62.8 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Jira status \057 priority) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 62.8 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(To Do \057 Medium) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 47.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Components \057 labels) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 47.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(None specified) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 33 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Fix version \057 sprint) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 33 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(None specified) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 18.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Linked issues \057 attachments) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 18.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(None specified) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 3.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Fetched) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 3.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(27 Oct 2026 via configured Jira REST API v3) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.38 w
+n
+0 133.6 m
+504.5669 133.6 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 133.6 l
+S
+n
+504.5669 0 m
+504.5669 133.6 l
+S
+n
+0 119.2 m
+504.5669 119.2 l
+S
+n
+0 104.3 m
+504.5669 104.3 l
+S
+n
+0 89.4 m
+504.5669 89.4 l
+S
+n
+0 74.5 m
+504.5669 74.5 l
+S
+n
+0 59.6 m
+504.5669 59.6 l
+S
+n
+0 44.7 m
+504.5669 44.7 l
+S
+n
+0 29.8 m
+504.5669 29.8 l
+S
+n
+0 14.9 m
+504.5669 14.9 l
+S
+n
+130.3937 0 m
+130.3937 133.6 l
+S
+0.772549 0.788235 0.807843 RG
+0.6 w
+n
+0 119.2 m
+504.5669 119.2 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 534.2661 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F2 9.5 Tf
+11 TL
+(User story) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 507.4661 cm
+q
+BT
+1 0 0 1 0 13 Tm
+10.4 TL
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+(As a ) Tj
+/F2 7.8 Tf
+(Support Operations Manager) Tj
+/F1 7.8 Tf
+(\054 I want newly created cases to be automatically assigned to available agents using a round\055robin method\054) Tj
+T*
+(so that workload is distributed fairly and cases are handled efficiently without manual intervention\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 492.4661 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F2 9.5 Tf
+11 TL
+(Acceptance criteria \050condensed from ticket\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 392.0661 cm
+q
+0.937255 0.941176 0.94902 rg
+n
+0 97.4 504.5669 -14.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 68.1 504.5669 -14.9 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 38.3 504.5669 -14.9 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 4 86.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(\043) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 38.01575 86.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Area) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 86.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Criterion) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 71.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 38.01575 71.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Automatic assignment) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 71.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(A newly created case entering the system is automatically assigned to an eligible agent\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 56.4 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC2) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 38.01575 56.4 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Round\055robin) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 56.4 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Allocate cases in round\055robin order and distribute evenly among eligible agents\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 41.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC3) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 38.01575 41.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Availability) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 41.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Check Active status\054 working hours\054 Vacation \057 Out of Office\054 and Inactive \057 Disabled status before assignment\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 26.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC4) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 38.01575 26.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Exclusion) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 26.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Do not assign to Vacation\054 Out of Office\054 inactive\054 or offline agents \050if applicable\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 11.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC5) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 38.01575 11.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Fallback) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 134.3937 3.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(If none are available\054 keep the case in queue and expose it in the Unassigned tab under Case Management to) Tj
+T*
+(Supervisor \057 Admin\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.38 w
+n
+0 97.4 m
+504.5669 97.4 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 97.4 l
+S
+n
+504.5669 0 m
+504.5669 97.4 l
+S
+n
+0 83 m
+504.5669 83 l
+S
+n
+0 68.1 m
+504.5669 68.1 l
+S
+n
+0 53.2 m
+504.5669 53.2 l
+S
+n
+0 38.3 m
+504.5669 38.3 l
+S
+n
+0 23.4 m
+504.5669 23.4 l
+S
+n
+34.01575 0 m
+34.01575 97.4 l
+S
+n
+130.3937 0 m
+130.3937 97.4 l
+S
+0.772549 0.788235 0.807843 RG
+0.6 w
+n
+0 83 m
+504.5669 83 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 386.3969 cm
+Q
+q
+1 0 0 1 45.35433 359.3969 cm
+q
+0.968627 0.972549 0.976471 rg
+n
+0 27 504.5669 -27 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 5 cm
+q
+BT
+1 0 0 1 0 10.1 Tm
+8.5 TL
+/F2 6.9 Tf
+0.188235 0.215686 0.266667 rg
+(Source constraint) Tj
+/F1 6.9 Tf
+( ) Tj
+( ) Tj
+(The issue does not define rotation order\054 the \042even\042 distribution measure\054 schedule boundaries\054 or queued\055case recovery\073 these remain) Tj
+T*
+(questions\054 not assumed behavior\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.4 w
+n
+0 27 m
+504.5669 27 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 27 l
+S
+n
+504.5669 0 m
+504.5669 27 l
+S
+0.898039 0.196078 0.176471 RG
+2 w
+n
+0 0 m
+0 27 l
+S
+Q
+Q
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Contents 10 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 5993
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0.521569 0.541176 0.572549 rg
+BT
+/F1 7.1 Tf
+8.52 TL
+ET
+BT
+1 0 0 1 45.35433 814.9606 Tm
+(Page 2  \174  SCRUM\0555 Test Plan) Tj
+T*
+ET
+1 0.945098 0.941176 rg
+n
+439.3039 812.3606 m
+547.5213 812.3606 l
+548.848 812.3606 549.9213 813.4339 549.9213 814.7606 c
+549.9213 820.9606 l
+549.9213 822.2873 548.848 823.3606 547.5213 823.3606 c
+439.3039 823.3606 l
+437.9771 823.3606 436.9039 822.2873 436.9039 820.9606 c
+436.9039 814.7606 l
+436.9039 813.4339 437.9771 812.3606 439.3039 812.3606 c
+h
+f*
+0.898039 0.196078 0.176471 rg
+BT
+/F2 6.2 Tf
+7.44 TL
+ET
+BT
+1 0 0 1 441.4039 814.9606 Tm
+(DRAFT\072 PENDING HUMAN REVIEW) Tj
+T*
+ET
+0.882353 0.890196 0.901961 RG
+0.5 w
+n
+45.35433 805.0394 m
+549.9213 805.0394 l
+S
+n
+45.35433 29.76378 m
+549.9213 29.76378 l
+S
+0.521569 0.541176 0.572549 rg
+BT
+/F1 6.8 Tf
+8.16 TL
+ET
+BT
+1 0 0 1 546.1405 19.27559 Tm
+(2) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 774.5354 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(1) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(Scope \046 Objectives) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 768.9854 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 51.35433 751.9854 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F2 9.5 Tf
+11 TL
+(In scope) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 735.5854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(Automatic assignment when a new case is created and an eligible agent is available \050AC1\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 719.1854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(Round\055robin distribution across eligible agents\054 subject to confirming order and fairness \050AC2\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 702.7854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(Eligibility checks for active state\054 working hours\054 Vacation \057 Out of Office\054 Inactive \057 Disabled\054 and offline where applicable \050AC3\055AC4\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 686.3854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(No\055agent fallback\072 retain the case and expose it in Case Management \076 Unassigned to Supervisor \057 Admin roles \050AC5\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 669.9854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(Focused regression of existing case creation\057routing paths once the affected surface is identified\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 654.9854 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F2 9.5 Tf
+11 TL
+(Out of scope unless confirmed) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 638.5854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(Skill\055\054 region\055\054 priority\055\054 or SLA\055based routing not stated in SCRUM\0555\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 622.1854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(Manual reassignment\054 notifications\054 reporting\054 or historical\055case migration\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 605.7854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(Load targets\054 rollout flags\054 and rollback behavior\073 the ticket does not specify these\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 590.7854 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F2 9.5 Tf
+11 TL
+(Objective) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 563.9854 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 13 Tm
+/F1 7.8 Tf
+10.4 TL
+(Show with evidence that eligible cases are assigned automatically and fairly\054 ineligible agents are excluded\054 and the fallback remains visible\056) Tj
+T*
+(P0 scenarios must pass\073 open allocation and availability rules require stakeholder decisions\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 544.9854 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(2) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(Requirement checklist result) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 539.4354 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 45.35433 498.6354 cm
+q
+0.968627 0.972549 0.976471 rg
+n
+0 34.8 504.5669 -34.8 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 6 cm
+q
+BT
+1 0 0 1 0 16.5 Tm
+76.34309 0 Td
+7.6 TL
+/F2 6.3 Tf
+0.196078 0.454902 0.317647 rg
+(2) Tj
+0.113725 0.137255 0.188235 rg
+T*
+-9.802802 0 Td
+(Present) Tj
+T*
+-4.901402 0 Td
+0.45098 0.47451 0.509804 rg
+(of 22 items) Tj
+T*
+-61.63889 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 174.189 6 cm
+q
+BT
+1 0 0 1 0 16.5 Tm
+76.34309 0 Td
+7.6 TL
+/F2 6.3 Tf
+0.603922 0.352941 0.062745 rg
+(7) Tj
+0.113725 0.137255 0.188235 rg
+T*
+-15.5736 0 Td
+(Ambiguous) Tj
+T*
+0.869398 0 Td
+0.45098 0.47451 0.509804 rg
+(of 22 items) Tj
+T*
+-61.63889 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 342.378 6 cm
+q
+BT
+1 0 0 1 0 16.5 Tm
+74.59169 0 Td
+7.6 TL
+/F2 6.3 Tf
+0.898039 0.196078 0.176471 rg
+(13) Tj
+0.113725 0.137255 0.188235 rg
+T*
+-8.224652 0 Td
+(Missing) Tj
+T*
+-4.728152 0 Td
+0.45098 0.47451 0.509804 rg
+(of 22 items) Tj
+T*
+-61.63889 0 Td
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.4 w
+n
+0 34.8 m
+504.5669 34.8 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 34.8 l
+S
+n
+504.5669 0 m
+504.5669 34.8 l
+S
+n
+168.189 0 m
+168.189 34.8 l
+S
+n
+336.378 0 m
+336.378 34.8 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 492.9661 cm
+Q
+q
+1 0 0 1 51.35433 478.4661 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Ratings use only what is explicit in the Jira issue\056 Ambiguous and missing items are recorded with author questions\056) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 19040
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0.521569 0.541176 0.572549 rg
+BT
+/F1 7.1 Tf
+8.52 TL
+ET
+BT
+1 0 0 1 45.35433 814.9606 Tm
+(Page 3  \174  SCRUM\0555 Test Plan) Tj
+T*
+ET
+1 0.945098 0.941176 rg
+n
+439.3039 812.3606 m
+547.5213 812.3606 l
+548.848 812.3606 549.9213 813.4339 549.9213 814.7606 c
+549.9213 820.9606 l
+549.9213 822.2873 548.848 823.3606 547.5213 823.3606 c
+439.3039 823.3606 l
+437.9771 823.3606 436.9039 822.2873 436.9039 820.9606 c
+436.9039 814.7606 l
+436.9039 813.4339 437.9771 812.3606 439.3039 812.3606 c
+h
+f*
+0.898039 0.196078 0.176471 rg
+BT
+/F2 6.2 Tf
+7.44 TL
+ET
+BT
+1 0 0 1 441.4039 814.9606 Tm
+(DRAFT\072 PENDING HUMAN REVIEW) Tj
+T*
+ET
+0.882353 0.890196 0.901961 RG
+0.5 w
+n
+45.35433 805.0394 m
+549.9213 805.0394 l
+S
+n
+45.35433 29.76378 m
+549.9213 29.76378 l
+S
+0.521569 0.541176 0.572549 rg
+BT
+/F1 6.8 Tf
+8.16 TL
+ET
+BT
+1 0 0 1 546.1405 19.27559 Tm
+(3) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 774.5354 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(2\0561) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(Requirement checklist) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 768.9854 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 51.35433 352.5854 cm
+q
+0.937255 0.941176 0.94902 rg
+n
+0 410.4 504.5669 -14.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 378 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 342 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 306 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 270 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 234 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 198 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 162 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 126 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 90 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 54 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 18 504.5669 -18 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 4 399.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Area) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 399.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Checklist item) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 399.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Result) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 270.4567 399.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Evidence \057 question to author) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 385.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 385.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Clear user story \057 goal) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 381.2 cm
+q
+0.933333 0.968627 0.945098 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.196078 0.454902 0.317647 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.37493 0 Td
+(Present) Tj
+T*
+-14.37493 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 385.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Support Operations Manager and outcome are stated\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 367.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 367.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Acceptance criteria are testable) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 363.2 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+8.604134 0 Td
+(Ambiguous) Tj
+T*
+-8.604134 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 367.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Define measurable fairness\054 eligibility\054 and pass\057fail behavior\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 349.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 349.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Happy path fully described) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 345.2 cm
+q
+0.933333 0.968627 0.945098 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.196078 0.454902 0.317647 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.37493 0 Td
+(Present) Tj
+T*
+-14.37493 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 349.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(New case is assigned to an eligible agent\073 trigger timing is not stated\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 331.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 331.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Negative \057 error paths described) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 327.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 331.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(What if assignment or agent\055status lookup fails\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 313.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 313.1 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+7.7 TL
+/F1 6.4 Tf
+0.188235 0.215686 0.266667 rg
+(Boundary \046 empty states) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 309.2 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+8.604134 0 Td
+(Ambiguous) Tj
+T*
+-8.604134 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 313.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Clarify zero\057one eligible agent\054 working\055hours boundaries\054 and changing pools\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 295.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 295.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(State transitions enumerated) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 291.2 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+8.604134 0 Td
+(Ambiguous) Tj
+T*
+-8.604134 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 295.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Define created\054 assigned\054 queued\054 and later reprocessed transitions\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 277.1 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+7.7 TL
+/F1 6.4 Tf
+0.188235 0.215686 0.266667 rg
+(Data \046 environment) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 277.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Test data specified \057 derivable) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 273.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 277.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Provide agent states\054 schedules\054 and representative case data\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 259.1 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+7.7 TL
+/F1 6.4 Tf
+0.188235 0.215686 0.266667 rg
+(Data \046 environment) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 259.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Environment \057 configuration \057 flags named) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 255.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 259.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Name QA environment\054 schedule configuration\054 flags\054 and build\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 241.1 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+7.7 TL
+/F1 6.4 Tf
+0.188235 0.215686 0.266667 rg
+(Data \046 environment) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 241.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(External dependencies listed) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 237.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 241.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Identify case\054 presence\054 schedule\054 assignment\054 and queue dependencies\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 223.1 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+7.7 TL
+/F1 6.4 Tf
+0.188235 0.215686 0.266667 rg
+(Data \046 environment) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 223.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Preconditions \057 setup stated) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 219.2 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+8.604134 0 Td
+(Ambiguous) Tj
+T*
+-8.604134 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 223.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(How is a case considered \042in the system\042\073 how are states configured\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 205.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Non\055functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 205.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Performance \057 load expectations) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 201.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 205.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(What assignment latency and case throughput targets apply\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 187.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Non\055functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 187.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Security \057 authorization) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 183.2 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+8.604134 0 Td
+(Ambiguous) Tj
+T*
+-8.604134 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 187.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Specify who can view or act on unassigned cases\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 169.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Non\055functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 169.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Accessibility expectations) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 165.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 169.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Are accessibility requirements applicable to the Unassigned view\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 151.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Non\055functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 151.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Internationalization \057 localization) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 147.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 151.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Which locales\054 time zones\054 holidays\054 and working\055hour calendars apply\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 133.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Non\055functional) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 133.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Audit \057 logging \057 observability) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 129.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 133.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Which assignment decisions\054 exclusions\054 and failures must be recorded\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 115.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Cross\055cutting) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 115.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Impact on existing features) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 111.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 115.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Which case routing\054 manual assignment\054 or reporting paths need regression\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 97.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Cross\055cutting) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 97.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Backward compatibility \057 migration) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 93.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 97.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Are existing cases or stored schedules affected\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 79.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Cross\055cutting) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 79.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Mobile \057 responsive \057 browser matrix) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 75.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 79.1 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+7.7 TL
+/F1 6.4 Tf
+0.188235 0.215686 0.266667 rg
+(Which browsers\057devices apply to Case Management \076 Unassigned\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 61.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Cross\055cutting) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 61.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Rollback \057 feature\055flag behavior) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 57.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 61.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Is release gated\073 what happens to queued cases after rollback\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 43.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Clarity) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 43.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(No ambiguous wording) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 39.2 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+8.604134 0 Td
+(Ambiguous) Tj
+T*
+-8.604134 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 43.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Define \042evenly\042\054 \042offline \050if applicable\051\042\054 and \042available\042\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 25.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Clarity) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 25.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Terms defined consistently) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 21.2 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+8.604134 0 Td
+(Ambiguous) Tj
+T*
+-8.604134 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 25.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Are Active\054 Inactive\054 Disabled\054 offline\054 Vacation\054 and OOO distinct\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 7.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Clarity) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 72.0315 7.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Mockups \057 designs linked and match text) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 205.2598 3.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+14.20168 0 Td
+(Missing) Tj
+T*
+-14.20168 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 270.4567 7.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Provide approved design\057workflow for the Unassigned tab\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.38 w
+n
+0 410.4 m
+504.5669 410.4 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 410.4 l
+S
+n
+504.5669 0 m
+504.5669 410.4 l
+S
+n
+0 396 m
+504.5669 396 l
+S
+n
+0 378 m
+504.5669 378 l
+S
+n
+0 360 m
+504.5669 360 l
+S
+n
+0 342 m
+504.5669 342 l
+S
+n
+0 324 m
+504.5669 324 l
+S
+n
+0 306 m
+504.5669 306 l
+S
+n
+0 288 m
+504.5669 288 l
+S
+n
+0 270 m
+504.5669 270 l
+S
+n
+0 252 m
+504.5669 252 l
+S
+n
+0 234 m
+504.5669 234 l
+S
+n
+0 216 m
+504.5669 216 l
+S
+n
+0 198 m
+504.5669 198 l
+S
+n
+0 180 m
+504.5669 180 l
+S
+n
+0 162 m
+504.5669 162 l
+S
+n
+0 144 m
+504.5669 144 l
+S
+n
+0 126 m
+504.5669 126 l
+S
+n
+0 108 m
+504.5669 108 l
+S
+n
+0 90 m
+504.5669 90 l
+S
+n
+0 72 m
+504.5669 72 l
+S
+n
+0 54 m
+504.5669 54 l
+S
+n
+0 36 m
+504.5669 36 l
+S
+n
+0 18 m
+504.5669 18 l
+S
+n
+68.0315 0 m
+68.0315 410.4 l
+S
+n
+201.2598 0 m
+201.2598 410.4 l
+S
+n
+266.4567 0 m
+266.4567 410.4 l
+S
+0.772549 0.788235 0.807843 RG
+0.6 w
+n
+0 396 m
+504.5669 396 l
+S
+Q
+Q
+Q
+
+endstream
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 7831
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0.521569 0.541176 0.572549 rg
+BT
+/F1 7.1 Tf
+8.52 TL
+ET
+BT
+1 0 0 1 45.35433 814.9606 Tm
+(Page 4  \174  SCRUM\0555 Test Plan) Tj
+T*
+ET
+1 0.945098 0.941176 rg
+n
+439.3039 812.3606 m
+547.5213 812.3606 l
+548.848 812.3606 549.9213 813.4339 549.9213 814.7606 c
+549.9213 820.9606 l
+549.9213 822.2873 548.848 823.3606 547.5213 823.3606 c
+439.3039 823.3606 l
+437.9771 823.3606 436.9039 822.2873 436.9039 820.9606 c
+436.9039 814.7606 l
+436.9039 813.4339 437.9771 812.3606 439.3039 812.3606 c
+h
+f*
+0.898039 0.196078 0.176471 rg
+BT
+/F2 6.2 Tf
+7.44 TL
+ET
+BT
+1 0 0 1 441.4039 814.9606 Tm
+(DRAFT\072 PENDING HUMAN REVIEW) Tj
+T*
+ET
+0.882353 0.890196 0.901961 RG
+0.5 w
+n
+45.35433 805.0394 m
+549.9213 805.0394 l
+S
+n
+45.35433 29.76378 m
+549.9213 29.76378 l
+S
+0.521569 0.541176 0.572549 rg
+BT
+/F1 6.8 Tf
+8.16 TL
+ET
+BT
+1 0 0 1 546.1405 19.27559 Tm
+(4) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 774.5354 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(3) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(Gaps \046 Questions for the author) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 768.9854 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 51.35433 752.5854 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 2.6 Tm
+/F1 7.8 Tf
+10.4 TL
+(Resolve these decisions before finalizing detailed cases\056 The ticket does not provide enough information to infer the intended behavior\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 547.9854 cm
+q
+0.937255 0.941176 0.94902 rg
+n
+0 201.6 504.5669 -14.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 163.8 504.5669 -23.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 117 504.5669 -23.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 70.2 504.5669 -23.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 23.4 504.5669 -23.4 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 4 190.4 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(\043 \057 Area) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 94.70866 190.4 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Finding) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 293.1339 190.4 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Question to author) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 175.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(G\05501 Round\055robin) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 94.70866 167 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Order\054 next\055agent cursor\054 fairness window\057tolerance\054 and) Tj
+T*
+(pool\055change behavior are not defined\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 293.1339 175.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(What is the exact rotation rule\054 and how is \042even\042 measured\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 152.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(G\05502 Agent eligibility) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 94.70866 143.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Authoritative state source\054 freshness\054 and conflicting\055state) Tj
+T*
+(precedence are unspecified\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 293.1339 143.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Which data source is authoritative\054 how fresh must it be\054 and which) Tj
+T*
+(state takes precedence\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 128.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(G\05503 Working hours) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 94.70866 120.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Timezone\054 boundary inclusivity\054 weekends\054 holidays\054 and) Tj
+T*
+(overnight shifts are unspecified\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 293.1339 120.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Which calendar\057time zone applies\054 and are schedule start\057end) Tj
+T*
+(instants eligible\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 105.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(G\05504 Offline state) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 94.70866 96.8 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(The ticket says offline \042if applicable\042 without identifying) Tj
+T*
+(applicable states\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 293.1339 96.8 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Does offline mean not assignable\054 and what exact presence states) Tj
+T*
+(represent offline\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 81.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(G\05505 No\055agent queue) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 94.70866 73.4 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Access policy\054 ordering\054 and handling when an agent) Tj
+T*
+(becomes available are not described\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 293.1339 73.4 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Can Supervisor\057Admin only view or also assign\077 How are queued) Tj
+T*
+(cases ordered and resumed\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 58.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(G\05506 Failure \057 retry) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 94.70866 50 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Lookup or assignment failures and retry behavior are not) Tj
+T*
+(stated\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 293.1339 50 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Should failures retry\054 and how are duplicate or partial assignments) Tj
+T*
+(prevented\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 35.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(G\05507 Concurrency) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 94.70866 26.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Simultaneous case creation and changing availability are) Tj
+T*
+(unspecified\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 293.1339 26.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(How should concurrent assignments be serialized to preserve) Tj
+T*
+(fairness and prevent loss\057duplication\077) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 11.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(G\05508 Quality \057 rollout) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 94.70866 3.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Performance\054 audit\054 regression\054 environment\054 flags\054 and) Tj
+T*
+(rollback are absent\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 293.1339 3.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(What latency\057volume\054 audit\054 environment\054 regression\054 and rollout) Tj
+T*
+(requirements apply\077) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.38 w
+n
+0 201.6 m
+504.5669 201.6 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 201.6 l
+S
+n
+504.5669 0 m
+504.5669 201.6 l
+S
+n
+0 187.2 m
+504.5669 187.2 l
+S
+n
+0 163.8 m
+504.5669 163.8 l
+S
+n
+0 140.4 m
+504.5669 140.4 l
+S
+n
+0 117 m
+504.5669 117 l
+S
+n
+0 93.6 m
+504.5669 93.6 l
+S
+n
+0 70.2 m
+504.5669 70.2 l
+S
+n
+0 46.8 m
+504.5669 46.8 l
+S
+n
+0 23.4 m
+504.5669 23.4 l
+S
+n
+90.70866 0 m
+90.70866 201.6 l
+S
+n
+289.1339 0 m
+289.1339 201.6 l
+S
+0.772549 0.788235 0.807843 RG
+0.6 w
+n
+0 187.2 m
+504.5669 187.2 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 539.4815 cm
+Q
+q
+1 0 0 1 45.35433 512.4815 cm
+q
+0.968627 0.972549 0.976471 rg
+n
+0 27 504.5669 -27 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 5 cm
+q
+BT
+1 0 0 1 0 10.1 Tm
+8.5 TL
+/F2 6.9 Tf
+0.188235 0.215686 0.266667 rg
+(Planning constraint) Tj
+/F1 6.9 Tf
+( ) Tj
+( ) Tj
+(Do not treat performance\054 security\054 accessibility\054 or recovery outcomes as acceptance requirements until the owner confirms expected) Tj
+T*
+(behavior\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.4 w
+n
+0 27 m
+504.5669 27 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 27 l
+S
+n
+504.5669 0 m
+504.5669 27 l
+S
+0.898039 0.196078 0.176471 RG
+2 w
+n
+0 0 m
+0 27 l
+S
+Q
+Q
+Q
+
+endstream
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 10039
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0.521569 0.541176 0.572549 rg
+BT
+/F1 7.1 Tf
+8.52 TL
+ET
+BT
+1 0 0 1 45.35433 814.9606 Tm
+(Page 5  \174  SCRUM\0555 Test Plan) Tj
+T*
+ET
+1 0.945098 0.941176 rg
+n
+439.3039 812.3606 m
+547.5213 812.3606 l
+548.848 812.3606 549.9213 813.4339 549.9213 814.7606 c
+549.9213 820.9606 l
+549.9213 822.2873 548.848 823.3606 547.5213 823.3606 c
+439.3039 823.3606 l
+437.9771 823.3606 436.9039 822.2873 436.9039 820.9606 c
+436.9039 814.7606 l
+436.9039 813.4339 437.9771 812.3606 439.3039 812.3606 c
+h
+f*
+0.898039 0.196078 0.176471 rg
+BT
+/F2 6.2 Tf
+7.44 TL
+ET
+BT
+1 0 0 1 441.4039 814.9606 Tm
+(DRAFT\072 PENDING HUMAN REVIEW) Tj
+T*
+ET
+0.882353 0.890196 0.901961 RG
+0.5 w
+n
+45.35433 805.0394 m
+549.9213 805.0394 l
+S
+n
+45.35433 29.76378 m
+549.9213 29.76378 l
+S
+0.521569 0.541176 0.572549 rg
+BT
+/F1 6.8 Tf
+8.16 TL
+ET
+BT
+1 0 0 1 546.1405 19.27559 Tm
+(5) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 774.5354 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(4) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(4\0561 Test scenarios \0501 of 2\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 768.9854 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 51.35433 582.9854 cm
+q
+0.937255 0.941176 0.94902 rg
+n
+0 180 504.5669 -14.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 142.2 504.5669 -23.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 100.8 504.5669 -23.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 54 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 18 504.5669 -18 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 4 168.8 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(ID) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 168.8 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Priority) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.03937 168.8 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Type) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 168.8 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Scenario and expected result) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 168.8 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Maps to) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 153.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05501) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 150.8 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P0) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 153.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Positive) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 145.4 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Create a case with multiple eligible agents\073 confirm automatic assignment to an eligible) Tj
+T*
+(agent\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 153.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 130.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05502) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 127.4 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P0) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 130.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Distribution) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 122 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+-0.086594 Tw
+(Create successive cases with a stable pool\073 compare allocation with approved rotation and) Tj
+T*
+0 Tw
+(fairness rule\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 130.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC2 \057 G\05501) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 107.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05503) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 104 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P1) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 107.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Boundary) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 107.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(With one eligible agent\054 create multiple cases and confirm each is assigned successfully\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 107.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC1\055AC2) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 89.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05504) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 86 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P1) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 89.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Pool change) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 80.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Change eligibility between cases\073 verify assignment uses the current pool and approved) Tj
+T*
+(cursor rule\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 89.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC2\055AC3 \057 G\05501) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 65.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05505) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 62.6 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P0) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 65.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Availability) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 57.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Compare Active agents inside and outside configured working hours\073 select only an) Tj
+T*
+(eligible agent\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 65.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC3 \057 G\05503) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 42.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05506) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 39.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P0) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 42.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Exclusion) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 42.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Mark an otherwise eligible agent Vacation\073 confirm exclusion from assignment\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 42.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC3\055AC4) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 24.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05507) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 21.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P0) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 24.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Exclusion) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 24.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Mark an otherwise eligible agent Out of Office\073 confirm exclusion\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 24.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC3\055AC4) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 6.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05508) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 3.2 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P0) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 6.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Exclusion) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 6.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Set an agent Inactive or Disabled\073 confirm it cannot receive a case\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 6.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC3\055AC4) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.38 w
+n
+0 180 m
+504.5669 180 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 180 l
+S
+n
+504.5669 0 m
+504.5669 180 l
+S
+n
+0 165.6 m
+504.5669 165.6 l
+S
+n
+0 142.2 m
+504.5669 142.2 l
+S
+n
+0 118.8 m
+504.5669 118.8 l
+S
+n
+0 100.8 m
+504.5669 100.8 l
+S
+n
+0 77.4 m
+504.5669 77.4 l
+S
+n
+0 54 m
+504.5669 54 l
+S
+n
+0 36 m
+504.5669 36 l
+S
+n
+0 18 m
+504.5669 18 l
+S
+n
+36.85039 0 m
+36.85039 180 l
+S
+n
+85.03937 0 m
+85.03937 180 l
+S
+n
+150.2362 0 m
+150.2362 180 l
+S
+n
+433.7008 0 m
+433.7008 180 l
+S
+0.772549 0.788235 0.807843 RG
+0.6 w
+n
+0 165.6 m
+504.5669 165.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 574.4815 cm
+Q
+q
+1 0 0 1 45.35433 555.9815 cm
+q
+0.968627 0.972549 0.976471 rg
+n
+0 18.5 504.5669 -18.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 5 cm
+q
+BT
+1 0 0 1 0 1.6 Tm
+8.5 TL
+/F2 6.9 Tf
+0.188235 0.215686 0.266667 rg
+(Priority legend) Tj
+/F1 6.9 Tf
+( ) Tj
+( ) Tj
+(P0 \075 core \057 release blocking \055 P1 \075 important behavior \055 P2 \075 supporting regression\056 Priorities are proposed\073 Jira does not define them\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.4 w
+n
+0 18.5 m
+504.5669 18.5 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 18.5 l
+S
+n
+504.5669 0 m
+504.5669 18.5 l
+S
+0.898039 0.196078 0.176471 RG
+2 w
+n
+0 0 m
+0 18.5 l
+S
+Q
+Q
+Q
+
+endstream
+endobj
+17 0 obj
+<<
+/Contents 18 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 10165
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0.521569 0.541176 0.572549 rg
+BT
+/F1 7.1 Tf
+8.52 TL
+ET
+BT
+1 0 0 1 45.35433 814.9606 Tm
+(Page 6  \174  SCRUM\0555 Test Plan) Tj
+T*
+ET
+1 0.945098 0.941176 rg
+n
+439.3039 812.3606 m
+547.5213 812.3606 l
+548.848 812.3606 549.9213 813.4339 549.9213 814.7606 c
+549.9213 820.9606 l
+549.9213 822.2873 548.848 823.3606 547.5213 823.3606 c
+439.3039 823.3606 l
+437.9771 823.3606 436.9039 822.2873 436.9039 820.9606 c
+436.9039 814.7606 l
+436.9039 813.4339 437.9771 812.3606 439.3039 812.3606 c
+h
+f*
+0.898039 0.196078 0.176471 rg
+BT
+/F2 6.2 Tf
+7.44 TL
+ET
+BT
+1 0 0 1 441.4039 814.9606 Tm
+(DRAFT\072 PENDING HUMAN REVIEW) Tj
+T*
+ET
+0.882353 0.890196 0.901961 RG
+0.5 w
+n
+45.35433 805.0394 m
+549.9213 805.0394 l
+S
+n
+45.35433 29.76378 m
+549.9213 29.76378 l
+S
+0.521569 0.541176 0.572549 rg
+BT
+/F1 6.8 Tf
+8.16 TL
+ET
+BT
+1 0 0 1 546.1405 19.27559 Tm
+(6) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 774.5354 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(4) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(4\0562 Test scenarios \0502 of 2\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 768.9854 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 51.35433 577.5854 cm
+q
+0.937255 0.941176 0.94902 rg
+n
+0 185.4 504.5669 -14.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 153 504.5669 -23.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 106.2 504.5669 -18 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 64.8 504.5669 -23.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 23.4 504.5669 -23.4 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 4 174.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(ID) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 174.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Priority) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.03937 174.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Type) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 174.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Scenario and expected result) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 174.2 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Maps to) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 159.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05509) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 156.2 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P1) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 159.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Offline) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 159.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Set an agent offline\073 verify exclusion after offline\055state applicability is confirmed\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 159.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC4 \057 G\05504) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 141.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05510) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 138.2 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P1) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 141.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Time boundary) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 132.8 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Create cases at working\055hours boundaries after timezone and schedule rules are) Tj
+T*
+(specified\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 141.3 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC3 \057 G\05503) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 117.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05511) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 114.8 cm
+q
+1 0.945098 0.941176 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.898039 0.196078 0.176471 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P0) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 117.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Fallback) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 109.4 cm
+q
+BT
+1 0 0 1 0 10.1 Tm
+8.5 TL
+/F1 6.9 Tf
+0.188235 0.215686 0.266667 rg
+(Make all agents unavailable\073 confirm case remains queued and appears in Case) Tj
+T*
+(Management \076 Unassigned for Supervisor\057Admin\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 117.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC5) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 94.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05512) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 91.4 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P1) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 94.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Authorization) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 94.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Verify Supervisor\057Admin access\073 verify other\055role denial only if policy is confirmed\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 94.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC5 \057 G\05505) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 76.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05513) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 73.4 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P1) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 76.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Concurrency) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 68 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Create cases concurrently\073 check duplicate ownership\054 lost cases\054 and agreed round\055robin) Tj
+T*
+(behavior\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 76.5 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC1\055AC2 \057 G\05507) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 53.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05514) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 50 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P1) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 53.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Retry) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 44.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Repeat processing of one case event\073 verify stable single assignment after retry rules are) Tj
+T*
+(approved\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 53.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC1 \057 G\05506) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 29.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05515) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 26.6 cm
+q
+1 0.964706 0.909804 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.603922 0.352941 0.062745 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P1) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 29.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Recovery) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 29.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Restore an eligible agent after a case is queued\073 verify agreed queued\055case handling\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 29.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(AC5 \057 G\05505) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 11.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(TS\05516) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.85039 8.6 cm
+q
+0.968627 0.972549 0.976471 rg
+n
+0 11.6 53.85827 -11.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 1 2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 6.3 Tf
+7.6 TL
+22.07668 0 Td
+(P2) Tj
+T*
+-22.07668 0 Td
+ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 89.03937 11.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Regression) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 154.2362 3.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(Recheck identified adjacent case creation\057routing paths after regression scope is) Tj
+T*
+(confirmed\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 437.7008 11.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(G\05508) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.38 w
+n
+0 185.4 m
+504.5669 185.4 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 185.4 l
+S
+n
+504.5669 0 m
+504.5669 185.4 l
+S
+n
+0 171 m
+504.5669 171 l
+S
+n
+0 153 m
+504.5669 153 l
+S
+n
+0 129.6 m
+504.5669 129.6 l
+S
+n
+0 106.2 m
+504.5669 106.2 l
+S
+n
+0 88.2 m
+504.5669 88.2 l
+S
+n
+0 64.8 m
+504.5669 64.8 l
+S
+n
+0 41.4 m
+504.5669 41.4 l
+S
+n
+0 23.4 m
+504.5669 23.4 l
+S
+n
+36.85039 0 m
+36.85039 185.4 l
+S
+n
+85.03937 0 m
+85.03937 185.4 l
+S
+n
+150.2362 0 m
+150.2362 185.4 l
+S
+n
+433.7008 0 m
+433.7008 185.4 l
+S
+0.772549 0.788235 0.807843 RG
+0.6 w
+n
+0 171 m
+504.5669 171 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 569.0815 cm
+Q
+q
+1 0 0 1 45.35433 550.5815 cm
+q
+0.968627 0.972549 0.976471 rg
+n
+0 18.5 504.5669 -18.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 5 cm
+q
+BT
+1 0 0 1 0 1.6 Tm
+8.5 TL
+/F2 6.9 Tf
+0.188235 0.215686 0.266667 rg
+(Priority legend) Tj
+/F1 6.9 Tf
+( ) Tj
+( ) Tj
+(P0 \075 core \057 release blocking \055 P1 \075 important behavior \055 P2 \075 supporting regression\056 Priorities are proposed\073 Jira does not define them\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.4 w
+n
+0 18.5 m
+504.5669 18.5 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 18.5 l
+S
+n
+504.5669 0 m
+504.5669 18.5 l
+S
+0.898039 0.196078 0.176471 RG
+2 w
+n
+0 0 m
+0 18.5 l
+S
+Q
+Q
+Q
+
+endstream
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 9780
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0.521569 0.541176 0.572549 rg
+BT
+/F1 7.1 Tf
+8.52 TL
+ET
+BT
+1 0 0 1 45.35433 814.9606 Tm
+(Page 7  \174  SCRUM\0555 Test Plan) Tj
+T*
+ET
+1 0.945098 0.941176 rg
+n
+439.3039 812.3606 m
+547.5213 812.3606 l
+548.848 812.3606 549.9213 813.4339 549.9213 814.7606 c
+549.9213 820.9606 l
+549.9213 822.2873 548.848 823.3606 547.5213 823.3606 c
+439.3039 823.3606 l
+437.9771 823.3606 436.9039 822.2873 436.9039 820.9606 c
+436.9039 814.7606 l
+436.9039 813.4339 437.9771 812.3606 439.3039 812.3606 c
+h
+f*
+0.898039 0.196078 0.176471 rg
+BT
+/F2 6.2 Tf
+7.44 TL
+ET
+BT
+1 0 0 1 441.4039 814.9606 Tm
+(DRAFT\072 PENDING HUMAN REVIEW) Tj
+T*
+ET
+0.882353 0.890196 0.901961 RG
+0.5 w
+n
+45.35433 805.0394 m
+549.9213 805.0394 l
+S
+n
+45.35433 29.76378 m
+549.9213 29.76378 l
+S
+0.521569 0.541176 0.572549 rg
+BT
+/F1 6.8 Tf
+8.16 TL
+ET
+BT
+1 0 0 1 546.1405 19.27559 Tm
+(7) Tj
+T*
+ET
+Q
+q
+1 0 0 1 51.35433 774.5354 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(5) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(Test Data \046 Environment) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 768.9854 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 51.35433 674.0854 cm
+q
+0.937255 0.941176 0.94902 rg
+n
+0 88.9 504.5669 -14.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 59.6 504.5669 -14.9 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 29.8 504.5669 -14.9 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 4 77.7 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Item) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 108.8819 77.7 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Plan \057 current information) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 62.8 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Environment \057 build) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 108.8819 62.8 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Not specified in SCRUM\0555\073 confirm QA environment and build before execution\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 47.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Agent pool) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 108.8819 47.9 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Prepare agents covering Active\054 Inactive\057Disabled\054 Vacation\054 Out of Office\054 offline \050if applicable\051\054 and working\055hours in\057out\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 33 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Case data) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 108.8819 33 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Use distinguishable new cases\073 record case ID\054 creation time\054 assigned agent\054 and queue state\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 18.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Roles) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 108.8819 18.1 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Supervisor and Admin are named for Unassigned visibility\073 confirm exact role identifiers and access policy\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 3.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Dependencies) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 108.8819 3.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Identify case creation\054 agent\055presence\057status\054 schedule\054 assignment\054 and queue services\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.38 w
+n
+0 88.9 m
+504.5669 88.9 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 88.9 l
+S
+n
+504.5669 0 m
+504.5669 88.9 l
+S
+n
+0 74.5 m
+504.5669 74.5 l
+S
+n
+0 59.6 m
+504.5669 59.6 l
+S
+n
+0 44.7 m
+504.5669 44.7 l
+S
+n
+0 29.8 m
+504.5669 29.8 l
+S
+n
+0 14.9 m
+504.5669 14.9 l
+S
+n
+104.8819 0 m
+104.8819 88.9 l
+S
+0.772549 0.788235 0.807843 RG
+0.6 w
+n
+0 74.5 m
+504.5669 74.5 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 658.0854 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(6) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(Entry \057 Exit criteria) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 652.5354 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 51.35433 593.8354 cm
+q
+0.937255 0.941176 0.94902 rg
+n
+0 52.7 504.5669 -14.4 re
+f*
+0.968627 0.972549 0.976471 rg
+n
+0 23.4 504.5669 -23.4 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 4 41.5 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Gate) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 80.53543 41.5 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Criteria) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 26.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Entry) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 80.53543 26.6 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Ticket available\073 QA environment and data ready\073 owners confirmed eligibility\054 schedule\054 round\055robin\054 and access rules\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 11.7 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F1 6.9 Tf
+8.5 TL
+(Exit) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 80.53543 3.2 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 10.1 Tm
+/F1 6.9 Tf
+8.5 TL
+(All P0 scenarios pass\073 relevant P1 scenarios complete or waived\073 critical assignment\057eligibility\057fallback defects resolved\073 decisions) Tj
+T*
+(recorded\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.38 w
+n
+0 52.7 m
+504.5669 52.7 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 52.7 l
+S
+n
+504.5669 0 m
+504.5669 52.7 l
+S
+n
+0 38.3 m
+504.5669 38.3 l
+S
+n
+0 23.4 m
+504.5669 23.4 l
+S
+n
+76.53543 0 m
+76.53543 52.7 l
+S
+0.772549 0.788235 0.807843 RG
+0.6 w
+n
+0 38.3 m
+504.5669 38.3 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 577.8354 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(7) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(Risks\054 Resources \046 Timing) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 572.2854 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 51.35433 555.8854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(\042Evenly\042 is not measurable without the rotation rule and fairness window\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 539.4854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(Availability may change between eligibility check and assignment\073 race behavior is undefined\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 523.0854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(Unspecified retry and recovery behavior may leave cases queued or cause duplicate processing\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 506.6854 cm
+q
+BT
+1 0 0 1 0 2.6 Tm
+10.4 TL
+/F2 7.8 Tf
+0.898039 0.196078 0.176471 rg
+<95> Tj
+/F1 7.8 Tf
+0.188235 0.215686 0.266667 rg
+( ) Tj
+( ) Tj
+(QA\054 Support Operations\054 and product owners are needed to define agent schedules\054 roles\054 and fallback handling\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 479.8854 cm
+q
+BT
+1 0 0 1 0 13 Tm
+10.4 TL
+/F2 7.8 Tf
+0.188235 0.215686 0.266667 rg
+(Timing\072) Tj
+/F1 7.8 Tf
+( No sprint or target dates are recorded in the issue\056 Sequence execution after decisions\072 setup \055 core assignment\057eligibility \055) Tj
+T*
+(fallback\057access \055 resilience\057regression\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 460.8854 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+16 TL
+/F2 13.5 Tf
+0.898039 0.196078 0.176471 rg
+(8) Tj
+0.113725 0.137255 0.188235 rg
+( ) Tj
+( ) Tj
+(Human Review Gate) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 51.35433 455.3354 cm
+q
+0.55 w
+1 J
+0.882353 0.890196 0.901961 RG
+n
+0 0 m
+492.5669 0 l
+S
+Q
+Q
+q
+1 0 0 1 51.35433 428.5354 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 13 Tm
+/F1 7.8 Tf
+10.4 TL
+(The QA owner and product \057 operations stakeholders should confirm assumptions\054 answer blocking questions\054 and approve or edit this plan) Tj
+T*
+(before detailed test cases or automation proceed\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 45.35433 407.0354 cm
+q
+0.968627 0.972549 0.976471 rg
+n
+0 18.5 504.5669 -18.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 5 cm
+q
+BT
+1 0 0 1 0 1.6 Tm
+8.5 TL
+/F2 6.9 Tf
+0.188235 0.215686 0.266667 rg
+(Approval requested) Tj
+/F1 6.9 Tf
+( ) Tj
+( ) Tj
+(Confirm the rotation rule\054 eligibility and schedule definitions\054 queue access\057recovery\054 and test environment\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.4 w
+n
+0 18.5 m
+504.5669 18.5 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 18.5 l
+S
+n
+504.5669 0 m
+504.5669 18.5 l
+S
+0.898039 0.196078 0.176471 RG
+2 w
+n
+0 0 m
+0 18.5 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 395.6969 cm
+Q
+q
+1 0 0 1 51.35433 374.8969 cm
+q
+0.937255 0.941176 0.94902 rg
+n
+0 20.8 504.5669 -14.4 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 4 9.6 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(QA owner \057 reviewer) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 185.6441 9.6 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Product \057 Operations owner) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 397.5622 9.6 cm
+q
+0.113725 0.137255 0.188235 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 6.8 Tf
+8 TL
+(Date) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 4 3.2 cm
+Q
+q
+1 0 0 1 185.6441 3.2 cm
+Q
+q
+1 0 0 1 397.5622 3.2 cm
+Q
+q
+1 J
+1 j
+0.882353 0.890196 0.901961 RG
+0.38 w
+n
+0 20.8 m
+504.5669 20.8 l
+S
+n
+0 0 m
+504.5669 0 l
+S
+n
+0 0 m
+0 20.8 l
+S
+n
+504.5669 0 m
+504.5669 20.8 l
+S
+n
+0 6.4 m
+504.5669 6.4 l
+S
+n
+181.6441 0 m
+181.6441 20.8 l
+S
+n
+393.5622 0 m
+393.5622 20.8 l
+S
+0.772549 0.788235 0.807843 RG
+0.6 w
+n
+0 6.4 m
+504.5669 6.4 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 369.2276 cm
+Q
+q
+1 0 0 1 51.35433 355.5276 cm
+q
+0.188235 0.215686 0.266667 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 6.4 Tf
+7.7 TL
+(Source\072 Jira SCRUM\0555 \055 Auto\055Assignment of Created Cases to Available Agents \055 Status To Do \055 Priority Medium \055 fetched 27 Oct 2026\056) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000015 00000 n 
+0000000163 00000 n 
+0000000263 00000 n 
+0000000312 00000 n 
+0000000511 00000 n 
+0000009977 00000 n 
+0000010018 00000 n 
+0000010125 00000 n 
+0000010237 00000 n 
+0000010437 00000 n 
+0000016483 00000 n 
+0000016684 00000 n 
+0000035778 00000 n 
+0000035979 00000 n 
+0000043863 00000 n 
+0000044064 00000 n 
+0000054157 00000 n 
+0000054358 00000 n 
+0000064577 00000 n 
+0000064778 00000 n 
+trailer
+<<
+/Size 21
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+74611
+%%EOF
