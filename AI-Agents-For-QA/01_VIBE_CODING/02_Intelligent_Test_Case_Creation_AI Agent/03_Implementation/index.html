@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7fb">
+    <title>Test Case Generator</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Test Case Generator home">
+        <span class="brand-icon" aria-hidden="true">✓</span>
+        <span>Test Case Generator<small>AI-powered · RICEPOT framework</small></span>
+      </a>
+      <button class="button button-quiet" id="settings-toggle" type="button" aria-expanded="false" aria-controls="settings">
+        <span aria-hidden="true">⚙</span> Settings
+      </button>
+    </header>
+
+    <main>
+      <section class="intro">
+        <span class="eyebrow">QA WORKSPACE</span>
+        <h1>Turn requirements into test cases.</h1>
+        <p>Paste a user story or acceptance criteria. Review every case before sharing or creating Jira issues.</p>
+      </section>
+
+      <section class="panel" aria-labelledby="requirements-heading">
+        <div class="section-heading">
+          <div>
+            <span class="step">01</span>
+            <h2 id="requirements-heading">Your requirements</h2>
+          </div>
+          <span class="muted" id="char-count">0 / 5000</span>
+        </div>
+        <label class="sr-only" for="requirements">Requirements or user story</label>
+        <textarea id="requirements" maxlength="5000" placeholder="Paste requirements, or enter a Jira ticket number (e.g. QA-123 or 123)…"></textarea>
+        <div class="options">
+          <label>Test type
+            <select id="test-type">
+              <option>All</option><option>Positive</option><option>Negative</option>
+              <option>Boundary</option><option>Edge</option><option>Functional</option><option>UI / Validation</option>
+            </select>
+          </label>
+          <label>Priority
+            <select id="priority"><option>All</option><option>High</option><option>Medium</option><option>Low</option></select>
+          </label>
+          <label>Cases
+            <select id="case-count">
+              <option>3</option><option selected>5</option><option>8</option><option>12</option>
+            </select>
+          </label>
+        </div>
+        <div class="action-row">
+          <span class="status" id="groq-status" role="status">Checking Groq…</span>
+          <button class="button button-primary" id="generate" type="button">
+            <span aria-hidden="true">✦</span> Generate test cases
+          </button>
+        </div>
+        <p class="notice" id="notice" role="status" hidden></p>
+      </section>
+
+      <section class="panel settings-panel" id="settings" hidden aria-labelledby="settings-heading">
+        <div class="section-heading">
+          <div><span class="step">02</span><h2 id="settings-heading">Connections</h2></div>
+        </div>
+        <p class="muted">Credentials stay on the local server and are read from <code>AI-Agents-For-QA/.env</code>.</p>
+        <div class="connection-row">
+          <div><strong>Groq</strong><span class="muted" id="groq-detail">Checking configuration…</span></div>
+          <button class="button button-secondary" id="test-groq" type="button">Test connection</button>
+        </div>
+        <div class="connection-row jira-row">
+          <div><strong>Jira</strong><span class="muted" id="jira-detail">Checking configuration…</span></div>
+          <div class="jira-actions">
+            <label>Project key<input id="jira-project" maxlength="10" placeholder="e.g. QA" autocomplete="off"></label>
+            <button class="button button-secondary" id="test-jira" type="button">Test connection</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel results-panel" id="results" hidden aria-labelledby="results-heading">
+        <div class="section-heading results-heading">
+          <div><span class="step">03</span><h2 id="results-heading">Generated test cases</h2></div>
+          <div class="result-actions">
+            <button class="button button-secondary" id="copy" type="button">Copy</button>
+            <button class="button button-secondary" id="download" type="button">Download CSV</button>
+            <button class="button button-jira" id="create-jira" type="button" hidden>Create in Jira</button>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr>
+              <th>Test Case ID</th><th>Requirement / AC</th><th>Summary</th><th>Preconditions</th>
+              <th>Test Data</th><th>Steps</th><th>Expected Result</th><th>Priority</th><th>Test Type</th><th>Status</th>
+            </tr></thead>
+            <tbody id="cases"></tbody>
+          </table>
+        </div>
+        <div class="result-foot">
+          <p id="coverage"></p>
+          <div id="ambiguities" hidden><strong>Clarifications to review</strong><ul id="ambiguity-list"></ul></div>
+          <p class="muted" id="jira-created" role="status"></p>
+        </div>
+      </section>
+      <footer>Generated cases need QA review before execution.</footer>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

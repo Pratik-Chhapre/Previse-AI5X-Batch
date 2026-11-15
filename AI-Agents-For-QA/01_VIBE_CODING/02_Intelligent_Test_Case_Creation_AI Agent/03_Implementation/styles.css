@@ -1,0 +1,102 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #17243b;
+  background: #f5f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --blue: #245cdb;
+  --blue-dark: #1748b8;
+  --border: #e1e7f0;
+  --muted: #6b7890;
+  --green: #17835d;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, select, textarea, input { font: inherit; }
+button { cursor: pointer; }
+.topbar {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 max(24px, calc((100% - 1120px) / 2));
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+}
+.brand { display: flex; align-items: center; gap: 12px; color: inherit; text-decoration: none; font-weight: 700; }
+.brand-icon { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 12px; color: #fff; background: var(--blue); font-size: 22px; }
+.brand small { display: block; margin-top: 2px; color: var(--muted); font-size: 11px; font-weight: 500; }
+main { width: min(1120px, calc(100% - 40px)); margin: 42px auto 0; }
+.intro { margin: 0 0 24px; }
+.eyebrow, .step { color: var(--blue); font-size: 11px; font-weight: 750; letter-spacing: .12em; }
+h1 { margin: 9px 0 7px; font-size: clamp(26px, 4vw, 36px); letter-spacing: -.035em; }
+.intro p, .muted { color: var(--muted); }
+.intro p { margin: 0; }
+.panel { margin-bottom: 18px; padding: 23px; border: 1px solid var(--border); border-radius: 15px; background: #fff; box-shadow: 0 4px 16px #17243b08; }
+.section-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 17px; }
+.section-heading > div:first-child { display: flex; align-items: baseline; gap: 10px; }
+h2 { margin: 0; font-size: 17px; letter-spacing: -.01em; }
+.muted { font-size: 12px; }
+textarea { display: block; width: 100%; min-height: 152px; padding: 15px; resize: vertical; border: 1px solid #d5deeb; border-radius: 10px; color: inherit; line-height: 1.55; }
+textarea:focus, input:focus, select:focus { outline: 3px solid #245cdb24; border-color: #6b90e9; }
+textarea::placeholder, input::placeholder { color: #9aa5b7; }
+.options { display: flex; gap: 15px; margin: 16px 0 20px; }
+.options label, .jira-actions label { display: grid; gap: 7px; color: #42506a; font-size: 12px; font-weight: 650; }
+select, input { min-width: 130px; height: 38px; padding: 0 11px; border: 1px solid #d5deeb; border-radius: 8px; color: #24334d; background: #fff; }
+.action-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
+.status { color: var(--muted); font-size: 12px; }
+.status::before { content: ""; display: inline-block; width: 7px; height: 7px; margin: 0 7px 1px 0; border-radius: 50%; background: #a7b2c2; }
+.status.ready { color: var(--green); }
+.status.ready::before { background: var(--green); }
+.status.error { color: #bd3b3b; }
+.status.error::before { background: #bd3b3b; }
+.button { min-height: 38px; padding: 0 14px; border: 1px solid transparent; border-radius: 8px; font-size: 12px; font-weight: 700; transition: background .15s, border-color .15s; }
+.button:disabled { cursor: wait; opacity: .65; }
+.button-primary { min-height: 44px; padding: 0 19px; color: #fff; background: var(--blue); }
+.button-primary:hover:not(:disabled) { background: var(--blue-dark); }
+.button-secondary, .button-quiet { color: #33425d; border-color: var(--border); background: #fff; }
+.button-secondary:hover, .button-quiet:hover { background: #f5f7fb; }
+.button-jira { color: #fff; background: #16835d; }
+.button-jira:hover:not(:disabled) { background: #116b4b; }
+.notice { margin: 14px 0 0; padding: 10px 12px; border-radius: 8px; font-size: 13px; }
+.notice.error { color: #9e2828; background: #fff0f0; }
+.notice.success { color: #126545; background: #eaf8f1; }
+.settings-panel .muted { margin: -7px 0 15px; }
+.connection-row { display: flex; justify-content: space-between; align-items: center; gap: 14px; padding: 14px 0; border-top: 1px solid #edf0f5; }
+.connection-row > div:first-child { display: grid; gap: 5px; }
+.connection-row strong { font-size: 13px; }
+.jira-actions { display: flex; align-items: end; gap: 12px; }
+.jira-actions input { min-width: 115px; }
+.result-actions { display: flex; gap: 8px; }
+.results-panel { padding: 0; overflow: hidden; }
+.results-heading { margin: 0; padding: 20px 23px; }
+.table-wrap { overflow: auto; border-top: 1px solid var(--border); }
+table { width: 100%; min-width: 1100px; border-collapse: collapse; font-size: 12px; }
+th, td { padding: 12px; text-align: left; vertical-align: top; border-bottom: 1px solid #edf0f5; }
+th { color: #53617a; background: #f8f9fc; font-weight: 700; white-space: nowrap; }
+td { max-width: 230px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+td:first-child { color: var(--blue-dark); font-weight: 700; white-space: nowrap; }
+.result-foot { padding: 15px 23px; }
+.result-foot p { margin: 0; font-size: 12px; }
+.result-foot > div { margin-top: 14px; padding: 12px; color: #72521c; border-radius: 8px; background: #fff7e6; font-size: 12px; }
+.result-foot ul { margin: 7px 0 0; padding-left: 18px; }
+#jira-created { margin-top: 12px; color: var(--green); }
+footer { padding: 9px 0 28px; color: var(--muted); text-align: center; font-size: 11px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+[hidden] { display: none !important; }
+@media (max-width: 650px) {
+  .topbar { height: 64px; padding: 0 16px; }
+  main { width: calc(100% - 24px); margin-top: 27px; }
+  .panel { padding: 17px; }
+  .options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .options select { min-width: 0; width: 100%; }
+  .action-row, .connection-row { align-items: stretch; flex-direction: column; }
+  .action-row .button-primary { width: 100%; }
+  .jira-actions { align-items: stretch; flex-wrap: wrap; }
+  .jira-actions label { flex: 1; }
+  .jira-actions input { width: 100%; }
+  .result-actions { flex-wrap: wrap; justify-content: end; }
+  .results-heading { align-items: start; flex-direction: column; }
+}
