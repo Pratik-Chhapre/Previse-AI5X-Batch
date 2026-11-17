@@ -6,7 +6,7 @@ let server;
 let origin;
 
 before(async () => {
-  server = createServer();
+  server = createServer({ requireAuth: false });
   await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
   origin = `http://127.0.0.1:${server.address().port}`;
 });
@@ -21,6 +21,31 @@ test('serves the app and rejects paths outside its asset list', async () => {
   assert.match(await page.text(), /Turn requirements into test cases/);
   assert.equal((await fetch(`${origin}/server.js`)).status, 404);
   assert.equal((await fetch(`${origin}/../package.json`)).status, 404);
+});
+
+test('requires authentication for the app and API while keeping the health check public', async () => {
+  assert.throws(() => createServer({ requireAuth: true }), /APP_USERNAME and APP_PASSWORD are required/);
+
+  const protectedServer = createServer({
+    username: 'test-user',
+    password: 'a-long-test-password',
+    requireAuth: true,
+  });
+  await new Promise((resolve) => protectedServer.listen(0, '127.0.0.1', resolve));
+  const protectedOrigin = `http://127.0.0.1:${protectedServer.address().port}`;
+  try {
+    const page = await fetch(protectedOrigin);
+    assert.equal(page.status, 401);
+    assert.match(page.headers.get('www-authenticate'), /^Basic /);
+    assert.equal((await fetch(`${protectedOrigin}/api/status`)).status, 401);
+    assert.equal((await fetch(`${protectedOrigin}/health`)).status, 200);
+
+    const authorization = `Basic ${Buffer.from('test-user:a-long-test-password').toString('base64')}`;
+    const authenticatedPage = await fetch(protectedOrigin, { headers: { Authorization: authorization } });
+    assert.equal(authenticatedPage.status, 200);
+  } finally {
+    await new Promise((resolve, reject) => protectedServer.close((error) => error ? reject(error) : resolve()));
+  }
 });
 
 test('reports configuration without returning credentials', async () => {

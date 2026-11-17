@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
+import { createHash, timingSafeEqual } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
@@ -210,6 +211,17 @@ export function validateCases(payload, requirements, maxCount, requestedType, re
   });
 }
 
+function isAuthorized(header, credentials) {
+  const match = /^Basic ([A-Za-z0-9+/]+={0,2})$/i.exec(header || '');
+  if (!match) return false;
+  const supplied = Buffer.from(match[1], 'base64').toString('utf8');
+  const suppliedHash = createHash('sha256').update(supplied).digest();
+  const expectedHash = createHash('sha256')
+    .update(`${credentials.username}:${credentials.password}`)
+    .digest();
+  return timingSafeEqual(suppliedHash, expectedHash);
+}
+
 function parseModelResponse(content) {
   const cleaned = content.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
   try {
@@ -349,10 +361,38 @@ async function handleApi(req, res, url) {
   sendJson(res, 404, { error: 'Not found.' });
 }
 
-export function createServer() {
+export function createServer({
+  username = process.env.APP_USERNAME || '',
+  password = process.env.APP_PASSWORD || '',
+  requireAuth = process.env.NODE_ENV === 'production',
+} = {}) {
+  if (Boolean(username) !== Boolean(password)) {
+    throw new Error('Both APP_USERNAME and APP_PASSWORD must be configured together.');
+  }
+  if (username.includes(':')) {
+    throw new Error('APP_USERNAME cannot contain a colon.');
+  }
+  const credentials = username ? { username, password } : null;
+  if (requireAuth && !credentials) {
+    throw new Error('APP_USERNAME and APP_PASSWORD are required when NODE_ENV is production.');
+  }
+
   return http.createServer(async (req, res) => {
     const url = new URL(req.url, 'http://localhost');
     try {
+      if (req.method === 'GET' && url.pathname === '/health') {
+        res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'no-store' });
+        res.end('ok');
+        return;
+      }
+      if (credentials && !isAuthorized(req.headers.authorization, credentials)) {
+        res.writeHead(401, {
+          'WWW-Authenticate': 'Basic realm="Test Case Generator", charset="UTF-8"',
+          'Cache-Control': 'no-store',
+        });
+        res.end('Authentication required.');
+        return;
+      }
       if (url.pathname.startsWith('/api/')) {
         await handleApi(req, res, url);
         return;
@@ -380,7 +420,8 @@ export function createServer() {
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  createServer().listen(PORT, '127.0.0.1', () => {
+  const host = process.env.NODE_ENV === 'production' ? '0.0.0.0' : '127.0.0.1';
+  createServer().listen(PORT, host, () => {
     console.log(`Test Case Generator running at http://localhost:${PORT}`);
   });
 }

@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: previse-ai5x-test-case-generator
+    runtime: node
+    plan: free
+    rootDir: "AI-Agents-For-QA/01_VIBE_CODING/02_Intelligent_Test_Case_Creation_AI Agent/03_Implementation"
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APP_USERNAME
+        sync: false
+      - key: APP_PASSWORD
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
