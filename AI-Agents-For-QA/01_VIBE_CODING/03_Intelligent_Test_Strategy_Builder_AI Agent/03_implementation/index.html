@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7fb">
+    <title>Test Strategy Builder</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Test Strategy Builder home">
+        <span class="brand-icon" aria-hidden="true">✓</span>
+        <span>Test Strategy Builder<small>Risk-based · Human-reviewed</small></span>
+      </a>
+      <button class="button button-quiet" id="settings-toggle" type="button" aria-expanded="false" aria-controls="settings">
+        Connections
+      </button>
+    </header>
+
+    <main>
+      <section class="intro">
+        <span class="eyebrow">QUALITY ENGINEERING WORKSPACE</span>
+        <h1>Build a clear test strategy.</h1>
+        <p>Share what you know about the project. Review the generated draft before using it.</p>
+      </section>
+
+      <section class="panel" aria-labelledby="project-heading">
+        <div class="section-heading">
+          <div><span class="step">01</span><h2 id="project-heading">Project information</h2></div>
+          <span class="muted" id="char-count">0 / 12000</span>
+        </div>
+        <label for="project-name">Project name</label>
+        <input id="project-name" maxlength="120" placeholder="e.g. Customer Portal">
+        <label for="application-url">Application URL <span class="muted">(context only; the app will not visit it)</span></label>
+        <input id="application-url" type="url" value="https://app.vwo.com/#/login" placeholder="https://example.com">
+        <label for="project-context">Overview, requirements, scope, risks, constraints, tools and environments</label>
+        <textarea id="project-context" maxlength="12000" placeholder="Paste project information, requirements, acceptance criteria, release scope, known risks, constraints, dependencies, environments and tools. Leave unknown details out; the strategy will identify gaps." rows="9"></textarea>
+        <div class="action-row">
+          <span class="status" id="groq-status" role="status">Checking Groq configuration…</span>
+          <button class="button button-primary" id="generate" type="button">Generate strategy</button>
+        </div>
+        <p class="notice" id="notice" role="status" hidden></p>
+      </section>
+
+      <section class="panel settings-panel" id="settings" hidden aria-labelledby="settings-heading">
+        <div class="section-heading">
+          <div><span class="step">02</span><h2 id="settings-heading">Connections</h2></div>
+        </div>
+        <p class="muted">Keys stay on the local server and are read from <code>AI-Agents-For-QA/.env</code>.</p>
+        <div class="connection-row">
+          <div><strong>Groq</strong><span class="muted" id="groq-detail">Checking configuration…</span></div>
+          <button class="button button-secondary" id="test-groq" type="button">Test connection</button>
+        </div>
+        <div class="connection-row">
+          <div><strong>Jira</strong><span class="muted" id="jira-detail">Checking configuration…</span></div>
+          <button class="button button-secondary" id="test-jira" type="button">Test connection</button>
+        </div>
+      </section>
+
+      <section class="panel results-panel" id="results" hidden aria-labelledby="results-heading">
+        <div class="section-heading results-heading">
+          <div><span class="step">03</span><h2 id="results-heading">Strategy draft</h2></div>
+          <div class="result-actions">
+            <button class="button button-secondary" id="copy" type="button">Copy</button>
+            <button class="button button-secondary" id="download" type="button">Download .md</button>
+          </div>
+        </div>
+        <pre class="strategy" id="strategy"></pre>
+        <details class="jira-actions" id="jira-actions" hidden>
+          <summary>Create reviewed follow-up tasks in Jira</summary>
+          <label for="jira-project">Jira project key</label>
+          <input id="jira-project" maxlength="10" placeholder="e.g. QA" autocomplete="off">
+          <label for="jira-tasks">Task summaries <span class="muted">(one per line; review before creating)</span></label>
+          <textarea id="jira-tasks" maxlength="3000" rows="4" placeholder="Add only the specific follow-up tasks you approve."></textarea>
+          <button class="button button-jira" id="create-jira" type="button">Create tasks in Jira</button>
+          <p class="muted" id="jira-created" role="status"></p>
+        </details>
+      </section>
+      <footer>Generated strategies are drafts. Review assumptions, risks and proposed criteria with stakeholders.</footer>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

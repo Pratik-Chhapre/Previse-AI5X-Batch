@@ -25,6 +25,11 @@ test('serves the app and rejects paths outside its asset list', async () => {
 
 test('requires authentication for the app and API while keeping the health check public', async () => {
   assert.throws(() => createServer({ requireAuth: true }), /APP_USERNAME and APP_PASSWORD are required/);
+  assert.throws(() => createServer({
+    username: 'test-user',
+    password: 'short',
+    requireAuth: true,
+  }), /at least 16 characters/);
 
   const protectedServer = createServer({
     username: 'test-user',

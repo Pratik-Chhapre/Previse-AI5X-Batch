@@ -17,3 +17,16 @@ Never put these values in `render.yaml` or commit them to the repository. Jira i
 After deployment, Render provides an HTTPS URL. Open it and enter the app username and password when the browser prompts. The app requires authentication in production, including for its API. Its `/health` endpoint is unauthenticated only for Render's health check and returns no configuration or credential information.
 
 The Blueprint uses Render's free plan, which may spin down after inactivity and take time to wake on the next visit. To keep the app responsive without idle spin-down, select an always-on paid plan in Render and review its current price before confirming.
+
+## Deploy to Vercel
+
+Create a separate Vercel project for this app and set its Root Directory to `AI-Agents-For-QA/01_VIBE_CODING/02_Intelligent_Test_Case_Creation_AI Agent/03_Implementation`. Keep the Framework Preset as Other; Vercel uses the included `vercel.json`.
+
+Add these environment variables in the Vercel dashboard for the deployment environments you use:
+
+- `APP_USERNAME`
+- `APP_PASSWORD` (at least 16 characters)
+- `GROQ_API_KEY`
+- `JIRA_BASE_URL`, `JIRA_EMAIL`, and `JIRA_TOKEN` (optional)
+
+The Vercel proxy requires Basic authentication for every route. Never commit `.env` or paste credentials into source files. The repository-level `.env` is not deployed; configure each Vercel project's variables separately.

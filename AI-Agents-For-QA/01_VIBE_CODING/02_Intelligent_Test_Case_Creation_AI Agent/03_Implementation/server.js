@@ -372,6 +372,9 @@ export function createServer({
   if (username.includes(':')) {
     throw new Error('APP_USERNAME cannot contain a colon.');
   }
+  if (password && password.length < 16) {
+    throw new Error('APP_PASSWORD must contain at least 16 characters.');
+  }
   const credentials = username ? { username, password } : null;
   if (requireAuth && !credentials) {
     throw new Error('APP_USERNAME and APP_PASSWORD are required when NODE_ENV is production.');

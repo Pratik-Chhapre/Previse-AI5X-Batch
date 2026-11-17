@@ -1,0 +1,207 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  color: #17243b;
+  background: #f5f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.topbar {
+  height: 72px;
+  padding: 0 max(24px, calc((100vw - 1120px) / 2));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid #e4e9f2;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: inherit;
+  font-size: 15px;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.brand small {
+  display: block;
+  margin-top: 3px;
+  color: #718099;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.brand-icon {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  color: #fff;
+  background: #1769e0;
+  border-radius: 12px;
+  font-size: 21px;
+}
+
+main {
+  width: min(100% - 32px, 920px);
+  margin: 40px auto 28px;
+}
+
+.intro { margin: 0 0 24px; }
+
+.eyebrow {
+  color: #1769e0;
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: .12em;
+}
+
+h1 {
+  margin: 10px 0 8px;
+  font-size: clamp(30px, 5vw, 42px);
+  letter-spacing: -.04em;
+}
+
+.intro p, .muted { color: #718099; }
+.intro p { margin: 0; line-height: 1.6; }
+.muted { font-size: 13px; font-weight: 450; }
+
+.panel {
+  margin: 16px 0;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e4e9f2;
+  border-radius: 18px;
+  box-shadow: 0 8px 26px rgb(22 43 77 / 5%);
+}
+
+.section-heading, .section-heading > div, .action-row, .connection-row,
+.results-heading, .result-actions {
+  display: flex;
+  align-items: center;
+}
+
+.section-heading, .connection-row, .results-heading {
+  justify-content: space-between;
+}
+
+.section-heading { margin-bottom: 20px; }
+.section-heading > div { gap: 11px; }
+.step { color: #1769e0; font-size: 12px; font-weight: 800; }
+h2 { margin: 0; font-size: 18px; }
+
+label {
+  display: block;
+  margin: 17px 0 7px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 13px;
+  color: #17243b;
+  background: #fff;
+  border: 1px solid #d6deea;
+  border-radius: 9px;
+  font: inherit;
+  font-size: 14px;
+}
+
+textarea { resize: vertical; line-height: 1.55; }
+input:focus, textarea:focus { outline: 3px solid rgb(23 105 224 / 14%); border-color: #1769e0; }
+
+.action-row {
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.status { color: #718099; font-size: 13px; }
+.status.ready { color: #147548; }
+.status.error { color: #b42318; }
+
+.button {
+  min-height: 40px;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 9px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.button:disabled { cursor: wait; opacity: .65; }
+.button-primary { color: #fff; background: #1769e0; }
+.button-primary:hover { background: #1056bd; }
+.button-secondary, .button-quiet { color: #234064; background: #edf3fb; }
+.button-jira { color: #fff; background: #1769e0; }
+
+.notice {
+  margin: 16px 0 0;
+  padding: 11px 13px;
+  border-radius: 8px;
+  background: #edf7f1;
+  color: #147548;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.notice.error { background: #fff0ef; color: #b42318; }
+.settings-panel[hidden], .results-panel[hidden] { display: none; }
+
+.connection-row {
+  padding: 14px 0;
+  border-top: 1px solid #edf0f5;
+  gap: 16px;
+}
+
+.connection-row > div { display: grid; gap: 4px; }
+.result-actions { gap: 8px; }
+
+.strategy {
+  max-height: 70vh;
+  overflow: auto;
+  margin: 0;
+  padding: 20px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  color: #263650;
+  background: #f8fafd;
+  border: 1px solid #e8edf5;
+  border-radius: 11px;
+  font: 13px/1.7 "Segoe UI", Arial, sans-serif;
+}
+
+.jira-actions {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #edf0f5;
+}
+
+.jira-actions summary { cursor: pointer; font-size: 14px; font-weight: 700; }
+.jira-actions .button { margin-top: 12px; }
+footer { padding: 8px 4px; color: #718099; font-size: 12px; text-align: center; }
+
+@media (max-width: 620px) {
+  .topbar { height: 64px; padding: 0 16px; }
+  main { margin-top: 27px; }
+  .panel { padding: 18px; }
+  .action-row, .results-heading { align-items: stretch; flex-direction: column; }
+  .action-row .button { width: 100%; }
+  .result-actions { width: 100%; }
+  .result-actions .button { flex: 1; padding: 0 8px; }
+}
