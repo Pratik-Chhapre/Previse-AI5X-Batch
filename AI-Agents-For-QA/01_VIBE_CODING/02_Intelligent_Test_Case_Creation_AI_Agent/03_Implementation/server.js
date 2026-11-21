@@ -42,11 +42,33 @@ async function readJson(req) {
   }
 }
 
-function jiraConfig() {
-  const configuredUrl = (process.env.JIRA_BASE_URL || '').trim();
-  const email = process.env.JIRA_EMAIL || '';
-  const token = process.env.JIRA_TOKEN || '';
-  if (!configuredUrl || !email || !token) throw Object.assign(new Error('Jira is not fully configured in AI-Agents-For-QA/.env.'), { status: 400 });
+function requestConfig(input) {
+  const supplied = input && typeof input === 'object' && input.config && typeof input.config === 'object'
+    ? input.config
+    : {};
+  const value = (name) => {
+    const candidate = supplied[name];
+    if (Object.hasOwn(supplied, name)) {
+      if (typeof candidate !== 'string' || candidate.length > 4096) {
+        throw Object.assign(new Error(`${name} must be a string no longer than 4,096 characters.`), { status: 400 });
+      }
+      if (candidate.trim()) return candidate.trim();
+    }
+    return process.env[name] || '';
+  };
+  return {
+    GROQ_API_KEY: value('GROQ_API_KEY'),
+    JIRA_BASE_URL: value('JIRA_BASE_URL'),
+    JIRA_EMAIL: value('JIRA_EMAIL'),
+    JIRA_TOKEN: value('JIRA_TOKEN'),
+  };
+}
+
+function jiraConfig(config = process.env) {
+  const configuredUrl = (config.JIRA_BASE_URL || '').trim();
+  const email = config.JIRA_EMAIL || '';
+  const token = config.JIRA_TOKEN || '';
+  if (!configuredUrl || !email || !token) throw Object.assign(new Error('Configure JIRA_BASE_URL, JIRA_EMAIL, and JIRA_TOKEN in Settings or the server environment.'), { status: 400 });
   let url;
   try {
     url = new URL(configuredUrl);
@@ -76,7 +98,7 @@ export function extractJiraTicketKey(value, configuredBaseUrl = process.env.JIRA
   try {
     configuredUrl = new URL(configuredBaseUrl);
   } catch {
-    throw Object.assign(new Error('Jira is not fully configured. Check JIRA_BASE_URL in AI-Agents-For-QA/.env.'), { status: 400 });
+    throw Object.assign(new Error('Configure JIRA_BASE_URL before using a Jira issue URL.'), { status: 400 });
   }
   if (url.protocol !== 'https:' || url.host.toLowerCase() !== configuredUrl.host.toLowerCase()) {
     throw Object.assign(new Error('This Jira link does not match the configured Jira site. Use a link from the connected Jira site.'), { status: 400 });
@@ -115,9 +137,9 @@ async function externalFetch(url, options, service) {
   }
 }
 
-async function fetchJiraRequirements(rawKey) {
+async function fetchJiraRequirements(rawKey, config) {
   const key = rawKey.toUpperCase();
-  const { baseUrl, email, token } = jiraConfig();
+  const { baseUrl, email, token } = jiraConfig(config);
   const auth = Buffer.from(`${email}:${token}`).toString('base64');
   const response = await externalFetch(
     `${baseUrl}/rest/api/3/issue/${encodeURIComponent(key)}?expand=names`,
@@ -161,9 +183,9 @@ async function fetchJiraRequirements(rawKey) {
   };
 }
 
-async function groqFetch(pathname, options = {}) {
-  const key = process.env.GROQ_API_KEY;
-  if (!key) throw Object.assign(new Error('Groq is not configured. Add GROQ_API_KEY to AI-Agents-For-QA/.env.'), { status: 400 });
+async function groqFetch(pathname, options = {}, config = process.env) {
+  const key = config.GROQ_API_KEY;
+  if (!key) throw Object.assign(new Error('Configure GROQ_API_KEY in Settings or the server environment.'), { status: 400 });
   const response = await externalFetch(`https://api.groq.com/openai/v1${pathname}`, {
     ...options,
     headers: { Authorization: `Bearer ${key}`, ...(options.headers || {}) },
@@ -233,9 +255,10 @@ function parseModelResponse(content) {
 
 async function handleApi(req, res, url) {
   if (req.method === 'GET' && url.pathname === '/api/status') {
+    const config = requestConfig();
     sendJson(res, 200, {
-      groqConfigured: Boolean(process.env.GROQ_API_KEY),
-      jiraConfigured: Boolean(process.env.JIRA_BASE_URL && process.env.JIRA_EMAIL && process.env.JIRA_TOKEN),
+      groqConfigured: Boolean(config.GROQ_API_KEY),
+      jiraConfigured: Boolean(config.JIRA_BASE_URL && config.JIRA_EMAIL && config.JIRA_TOKEN),
       model: MODEL,
     });
     return;
@@ -246,8 +269,11 @@ async function handleApi(req, res, url) {
     return;
   }
 
+  const input = await readJson(req);
+  const config = requestConfig(input);
+
   if (url.pathname === '/api/groq/test') {
-    const response = await groqFetch('/models');
+    const response = await groqFetch('/models', {}, config);
     const data = await response.json();
     const available = (data.data || []).some((model) => model.id === MODEL);
     if (!available) throw Object.assign(new Error(`Groq is connected, but model ${MODEL} is unavailable for this API key.`), { status: 400 });
@@ -256,7 +282,7 @@ async function handleApi(req, res, url) {
   }
 
   if (url.pathname === '/api/jira/test') {
-    const { baseUrl, email, token } = jiraConfig();
+    const { baseUrl, email, token } = jiraConfig(config);
     const auth = Buffer.from(`${email}:${token}`).toString('base64');
     const response = await externalFetch(`${baseUrl}/rest/api/3/myself`, {
       headers: { Authorization: `Basic ${auth}`, Accept: 'application/json' },
@@ -271,7 +297,6 @@ async function handleApi(req, res, url) {
   }
 
   if (url.pathname === '/api/generate') {
-    const input = await readJson(req);
     const submitted = typeof input.requirements === 'string' ? input.requirements.trim() : '';
     const count = Number(input.count);
     const type = TYPES.has(input.testType) ? input.testType : null;
@@ -282,8 +307,8 @@ async function handleApi(req, res, url) {
     if (!Number.isInteger(count) || count < 1 || count > 12 || !type || !priority) {
       throw Object.assign(new Error('Choose a valid test type, priority, and case count.'), { status: 400 });
     }
-    const ticketKey = extractJiraTicketKey(submitted);
-    const source = ticketKey ? await fetchJiraRequirements(ticketKey) : null;
+    const ticketKey = extractJiraTicketKey(submitted, config.JIRA_BASE_URL);
+    const source = ticketKey ? await fetchJiraRequirements(ticketKey, config) : null;
     const requirements = source ? source.requirements : submitted;
     const messages = [
       {
@@ -299,7 +324,7 @@ async function handleApi(req, res, url) {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ model: MODEL, temperature: 0, seed: 42, response_format: { type: 'json_object' }, messages }),
-    });
+    }, config);
     const result = await response.json();
     const content = result.choices?.[0]?.message?.content;
     if (!content) throw Object.assign(new Error('Groq returned an empty response.'), { status: 502 });
@@ -314,8 +339,7 @@ async function handleApi(req, res, url) {
   }
 
   if (url.pathname === '/api/jira/create') {
-    const { baseUrl, email, token } = jiraConfig();
-    const input = await readJson(req);
+    const { baseUrl, email, token } = jiraConfig(config);
     const projectKey = typeof input.projectKey === 'string' ? input.projectKey.trim().toUpperCase() : '';
     const cases = Array.isArray(input.testCases) ? input.testCases.slice(0, 12) : [];
     if (!/^[A-Z][A-Z0-9_]{1,9}$/.test(projectKey) || cases.length === 0) {

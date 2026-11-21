@@ -111,20 +111,10 @@ test('extracts Jira keys from keys and same-site issue URLs', () => {
 
 test('resolves a Jira ticket key into requirement text before calling Groq', async () => {
   const originalFetch = globalThis.fetch;
-  const originalEnv = {
-    JIRA_BASE_URL: process.env.JIRA_BASE_URL,
-    JIRA_EMAIL: process.env.JIRA_EMAIL,
-    JIRA_TOKEN: process.env.JIRA_TOKEN,
-    GROQ_API_KEY: process.env.GROQ_API_KEY,
-  };
-  process.env.JIRA_BASE_URL = 'https://example.atlassian.net/browse/QA-123';
-  process.env.JIRA_EMAIL = 'qa@example.test';
-  process.env.JIRA_TOKEN = 'fake-token';
-  process.env.GROQ_API_KEY = 'fake-groq-key';
   let promptContent = '';
   globalThis.fetch = async (url, options = {}) => {
     if (String(url).includes('/rest/api/3/issue/QA-123')) {
-      assert.match(options.headers.Authorization, /^Basic /);
+      assert.equal(options.headers.Authorization, `Basic ${Buffer.from('qa@example.test:fake-jira-token').toString('base64')}`);
       return Response.json({
         key: 'QA-123',
         names: { customfield_1: 'Acceptance Criteria' },
@@ -139,6 +129,7 @@ test('resolves a Jira ticket key into requirement text before calling Groq', asy
       });
     }
     if (String(url).includes('api.groq.com')) {
+      assert.equal(options.headers.Authorization, 'Bearer fake-groq-key');
       const request = JSON.parse(options.body);
       promptContent = request.messages[1].content;
       return Response.json({
@@ -168,7 +159,18 @@ test('resolves a Jira ticket key into requirement text before calling Groq', asy
     const response = await originalFetch(`${origin}/api/generate`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ requirements: 'https://example.atlassian.net/browse/qa-123', count: 1, testType: 'All', priority: 'All' }),
+      body: JSON.stringify({
+        requirements: 'https://example.atlassian.net/browse/qa-123',
+        count: 1,
+        testType: 'All',
+        priority: 'All',
+        config: {
+          GROQ_API_KEY: 'fake-groq-key',
+          JIRA_BASE_URL: 'https://example.atlassian.net',
+          JIRA_EMAIL: 'qa@example.test',
+          JIRA_TOKEN: 'fake-jira-token',
+        },
+      }),
     });
     const body = await response.json();
     assert.equal(response.status, 200, body.error);
@@ -177,11 +179,8 @@ test('resolves a Jira ticket key into requirement text before calling Groq', asy
     assert.match(promptContent, /Acceptance Criteria:/);
     assert.match(promptContent, /Invalid credentials show a message\./);
     assert.equal(body.testCases.length, 1);
+    assert.doesNotMatch(JSON.stringify(body), /fake-groq-key|fake-jira-token/);
   } finally {
     globalThis.fetch = originalFetch;
-    for (const [key, value] of Object.entries(originalEnv)) {
-      if (value === undefined) delete process.env[key];
-      else process.env[key] = value;
-    }
   }
 });

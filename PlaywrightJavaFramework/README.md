@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Java 17 or newer
+- Java 25 or newer
 - Maven 3.9 or newer
 - Google Chrome installed
 

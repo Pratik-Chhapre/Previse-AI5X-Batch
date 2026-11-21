@@ -2,12 +2,13 @@ const $ = (selector) => document.querySelector(selector);
 const requirements = $('#requirements');
 const casesBody = $('#cases');
 let generated = [];
+let connectionConfig = {};
 
 async function request(path, body) {
   const response = await fetch(path, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: body === undefined ? '{}' : JSON.stringify(body),
+    body: JSON.stringify({ ...(body || {}), config: connectionConfig }),
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(data.error || `Request failed (HTTP ${response.status}).`);
@@ -78,13 +79,51 @@ function toCsv(items) {
   return [headers, ...rows].map((row) => row.map(csvEscape).join(',')).join('\r\n');
 }
 
+function parseEnvFile(text) {
+  const allowed = new Set(['GROQ_API_KEY', 'JIRA_BASE_URL', 'JIRA_EMAIL', 'JIRA_TOKEN']);
+  const config = {};
+  for (const rawLine of text.split(/\r?\n/)) {
+    const line = rawLine.trim().replace(/^export\s+/, '');
+    if (!line || line.startsWith('#')) continue;
+    const separator = line.indexOf('=');
+    if (separator < 1) continue;
+    const key = line.slice(0, separator).trim();
+    if (!allowed.has(key)) continue;
+    let value = line.slice(separator + 1).trim();
+    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+      value = value.slice(1, -1);
+    }
+    if (value.length > 4096) throw new Error(`${key} is too long.`);
+    config[key] = value;
+  }
+  if (!Object.keys(config).length) {
+    throw new Error('No supported keys found. Add GROQ_API_KEY and/or the Jira settings.');
+  }
+  return config;
+}
+
+function updateConnectionStatus(status = {}) {
+  const groqConfigured = Boolean(connectionConfig.GROQ_API_KEY || status.groqConfigured);
+  const jiraConfigured = Boolean(
+    (connectionConfig.JIRA_BASE_URL && connectionConfig.JIRA_EMAIL && connectionConfig.JIRA_TOKEN)
+    || status.jiraConfigured,
+  );
+  $('#groq-status').textContent = groqConfigured
+    ? `Ready · ${status.model || 'Groq'}`
+    : 'Groq API key not configured';
+  $('#groq-status').classList.toggle('ready', groqConfigured);
+  $('#groq-detail').textContent = groqConfigured
+    ? `Configured · ${status.model || 'Groq'}`
+    : 'Add GROQ_API_KEY in Settings or Vercel environment variables.';
+  $('#jira-detail').textContent = jiraConfigured
+    ? 'Configured for this tab or in server environment.'
+    : 'Add all three Jira settings to enable Jira integration.';
+  $('#create-jira').hidden = !jiraConfigured;
+}
+
 async function loadStatus() {
   const status = await fetch('/api/status').then((response) => response.json());
-  $('#groq-status').textContent = status.groqConfigured ? `Ready · ${status.model}` : 'Groq API key not configured';
-  $('#groq-status').classList.toggle('ready', status.groqConfigured);
-  $('#groq-detail').textContent = status.groqConfigured ? `Configured · ${status.model}` : 'Add GROQ_API_KEY to AI-Agents-For-QA/.env';
-  $('#jira-detail').textContent = status.jiraConfigured ? 'Configured in AI-Agents-For-QA/.env' : 'Not configured';
-  $('#create-jira').hidden = !status.jiraConfigured;
+  updateConnectionStatus(status);
 }
 
 requirements.addEventListener('input', () => {
@@ -124,6 +163,42 @@ $('#settings-toggle').addEventListener('click', (event) => {
   const isHidden = $('#settings').hidden;
   $('#settings').hidden = !isHidden;
   event.currentTarget.setAttribute('aria-expanded', String(isHidden));
+});
+
+$('#env-file').addEventListener('change', async (event) => {
+  const [file] = event.currentTarget.files;
+  if (!file) return;
+  if (file.size > 20000) {
+    showNotice('The environment file must be 20 KB or smaller.', 'error');
+    event.currentTarget.value = '';
+    return;
+  }
+  try {
+    $('#env-content').value = await file.text();
+  } catch {
+    showNotice('Could not read the selected environment file.', 'error');
+    event.currentTarget.value = '';
+  }
+});
+
+$('#apply-env').addEventListener('click', () => {
+  try {
+    connectionConfig = parseEnvFile($('#env-content').value);
+    $('#env-content').value = '';
+    $('#env-file').value = '';
+    updateConnectionStatus();
+    showNotice('Configuration loaded for this tab only. It will be cleared when you reload or close the tab.');
+  } catch (error) {
+    showNotice(error.message, 'error');
+  }
+});
+
+$('#clear-env').addEventListener('click', () => {
+  connectionConfig = {};
+  $('#env-content').value = '';
+  $('#env-file').value = '';
+  loadStatus().catch((error) => showNotice(error.message, 'error'));
+  showNotice('Tab-only credentials cleared.');
 });
 
 $('#test-groq').addEventListener('click', async (event) => {

@@ -64,7 +64,15 @@
         <div class="section-heading">
           <div><span class="step">02</span><h2 id="settings-heading">Connections</h2></div>
         </div>
-        <p class="muted">Credentials stay on the local server and are read from <code>AI-Agents-For-QA/.env</code>.</p>
+        <p class="muted">Paste or select a <code>.env</code> file. Supported keys: <code>GROQ_API_KEY</code>, <code>JIRA_BASE_URL</code>, <code>JIRA_EMAIL</code>, and <code>JIRA_TOKEN</code>. Values stay in this tab's memory and are sent only with app API requests; they are not saved to browser storage or the server. Use HTTPS and only enter secrets on a deployment you trust.</p>
+        <label class="env-label" for="env-content">Environment file contents
+          <textarea id="env-content" rows="5" spellcheck="false" autocomplete="off" placeholder="GROQ_API_KEY=...&#10;JIRA_BASE_URL=https://your-domain.atlassian.net&#10;JIRA_EMAIL=you@example.com&#10;JIRA_TOKEN=..."></textarea>
+        </label>
+        <div class="env-actions">
+          <label for="env-file">Or select a .env file<input id="env-file" type="file" accept=".env,text/plain"></label>
+          <button class="button button-primary" id="apply-env" type="button">Use for this tab</button>
+          <button class="button button-secondary" id="clear-env" type="button">Clear</button>
+        </div>
         <div class="connection-row">
           <div><strong>Groq</strong><span class="muted" id="groq-detail">Checking configuration…</span></div>
           <button class="button button-secondary" id="test-groq" type="button">Test connection</button>

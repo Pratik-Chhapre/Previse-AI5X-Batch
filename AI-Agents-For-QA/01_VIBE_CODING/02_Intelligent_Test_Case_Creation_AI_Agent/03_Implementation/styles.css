@@ -64,8 +64,15 @@ select, input { min-width: 130px; height: 38px; padding: 0 11px; border: 1px sol
 .notice.error { color: #9e2828; background: #fff0f0; }
 .notice.success { color: #126545; background: #eaf8f1; }
 .settings-panel .muted { margin: -7px 0 15px; }
+.env-label { display: grid; gap: 7px; color: #42506a; font-size: 12px; font-weight: 650; }
+.env-label textarea { min-height: 110px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 12px; }
+.env-actions { display: flex; align-items: end; gap: 10px; margin-top: 10px; }
+.env-actions label { display: grid; gap: 7px; color: #42506a; font-size: 12px; font-weight: 650; }
+.env-actions input[type="file"] { width: min(100%, 300px); height: auto; padding: 8px; font-size: 11px; }
 .connection-row { display: flex; justify-content: space-between; align-items: center; gap: 14px; padding: 14px 0; border-top: 1px solid #edf0f5; }
 .connection-row > div:first-child { display: grid; gap: 5px; }
+.env-actions { align-items: stretch; flex-direction: column; }
+.env-actions input[type="file"] { width: 100%; }
 .connection-row strong { font-size: 13px; }
 .jira-actions { display: flex; align-items: end; gap: 12px; }
 .jira-actions input { min-width: 115px; }
